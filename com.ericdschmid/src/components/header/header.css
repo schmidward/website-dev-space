@@ -1,9 +1,12 @@
+.full-width {
+    background-color: rgb(145, 33, 33);
+  }
+
 .header-container {
+    margin: 0px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(145, 33, 33);
-    color: white;
     /* margin: 20px 100px; */
 }
 
@@ -13,6 +16,14 @@
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+li {
+    padding: 0px 5px;
+}
+
+a {
+    color: white;
 }
 
 .nav-links li {

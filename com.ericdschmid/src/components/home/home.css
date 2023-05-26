@@ -3,8 +3,8 @@ div .content-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    height: 100%;
+    justify-content: center;
+    height: 100vh;
     width: 100%;
     color: white;
 }
@@ -12,12 +12,13 @@ div .content-container {
 .bg {
     background-image: url('../../assets/photos/home-image-bikes.jpeg');
     height: 100%;
+    width: 100%;
     background-position: left top;
     background-repeat: no-repeat;
     background-size: 100% cover;
 }
 
 .home-text {
-    padding: 35%;
+    text-align: center;
 }
 

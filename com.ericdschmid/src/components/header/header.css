@@ -2,12 +2,16 @@
     background-color: rgb(145, 33, 33);
   } */
 
+header {
+  width: 100%;
+}
+
 .header-container {
-    margin: 0px 20px;
+    /* margin: 0px 20px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin: 20px 100px; */
+    margin: 20px 100px;
 }
 
 .nav-links {

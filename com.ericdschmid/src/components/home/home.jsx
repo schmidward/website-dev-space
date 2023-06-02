@@ -7,7 +7,7 @@ function Home() {
         <>
         <section className="hero">
             <div className="hero-inner" id='section-0'>
-                <figure><Header /></figure>
+                <figure></figure>
                 <div className="hero__title">
                     <h2>Eric D. Schmid</h2>
                     <h3>Investigative Journalist | Software Engineer</h3>

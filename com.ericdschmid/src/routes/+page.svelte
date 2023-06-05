@@ -2,6 +2,7 @@
 
 </script>
 
+<body>
 <section class="hero">
 
     <div class="hero-inner" id='section-0'>
@@ -44,6 +45,8 @@
 </article>
 
 </section> 
+</body>
+
 
 <style>
     * {

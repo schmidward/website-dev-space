@@ -1,0 +1,99 @@
+<script>
+    import image from '../../lib/images/02-06-2023_BM_RIVER-26.jpeg';
+</script>
+
+<section>
+    <div class="main-content-wrapper">
+        <div>
+            <div class="top-box">
+                <h1>My Work</h1>
+            </div>
+            <div class="top-box">
+                <p>Articles published by National Public Radio, St. Louis Public Radio, WSHU Public Radio, and independently.</p>
+            </div>
+        </div>
+        <hr />
+        <h1 class="year">2023</h1>
+            <!-- {/* Top layer */} -->
+            <div class="layer-zero">
+                <!-- {/* Photo on left */} -->
+                <div class="layer-one">
+                    <img src={image} alt="The Mississippi River"/>
+                    <p class="caption">The Old Chain of Rocks Bridge is seen in the distance last week from the middle of the Mississippi River. 
+                        Over the years, developers have been challenged in trying to tame the mighty river's shores for the sake 
+                        of economic development. CREDIT: <em>BRIAN MUÑOZ /  ST. LOUIS PUBLIC RADIO</em></p>
+                </div>
+                <!-- {/* Headline and Description (dek) on right */} -->
+                <div class="layer-two">
+                    <p class="headline">Riverfront developments face obstacles, but the Mississippi River itself may be the biggest</p>
+                    <p class="dek">Ideas for development along parts of the St. Louis riverfront have become more common in recent years.</p>
+                    <p class="dek">It’s a trend in communities along the entire 2,500-mile river with many seeing projects that promote the Mississippi’s natural 
+                    assets and expand capacity for transportation, ecotourism and restoration.</p>                        
+                    <p class="dek">These projects have an extra challenge in accommodating the Mississippi River, which is seeing frequent and massive fluctuations 
+                    in its level as the climate changes.</p>
+                </div>
+            </div>
+        <hr />
+    </div>
+</section>
+
+<style>
+    .main-content-wrapper {
+    padding: 100px;
+}
+
+.top-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+}
+
+.year {
+    margin-left: 1.25%;
+}
+
+.layer-zero {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: space-between;
+}
+
+.layer-one {
+    display: inline-block;
+    width: 40%;
+    box-sizing: border-box;
+    align-self: flex-start;
+    margin: 1.25%;
+}
+
+.layer-two {
+    width: 55%;
+    align-self: flex-start;
+    justify-self: flex-end;
+    margin: 1.25%;
+}
+
+img {
+    width: 100%;
+}
+
+.caption {
+    font-size: 11.5px;
+}
+
+.headline {
+    margin-top: -1.25%;
+    margin-bottom: 2.5%;
+    font-size: 1.125em;
+    font-weight: bold;
+}
+
+.dek {
+    margin-top: 1.5%;
+    font-size: 1em;
+    font-weight: 200;
+}
+
+</style>

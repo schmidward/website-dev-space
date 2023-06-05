@@ -1,2 +1,2 @@
 # website-redesign
-Redesigning www.ericdschmid.com with React
+Redesigning www.ericdschmid.com with Svelte

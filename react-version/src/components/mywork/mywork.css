@@ -1,0 +1,57 @@
+.main-content-wrapper {
+    padding: 100px;
+}
+
+.top-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+}
+
+.year {
+    margin-left: 1.25%;
+}
+
+.layer-zero {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: space-between;
+}
+
+.layer-one {
+    display: inline-block;
+    width: 40%;
+    box-sizing: border-box;
+    align-self: flex-start;
+    margin: 1.25%;
+}
+
+.layer-two {
+    width: 55%;
+    align-self: flex-start;
+    justify-self: flex-end;
+    margin: 1.25%;
+}
+
+img {
+    width: 100%;
+}
+
+.caption {
+    font-size: 11.5px;
+}
+
+.headline {
+    margin-top: -1.25%;
+    margin-bottom: 2.5%;
+    font-size: 1.125em;
+    font-weight: bold;
+}
+
+.dek {
+    margin-top: 1.5%;
+    font-size: 1em;
+    font-weight: 200;
+}

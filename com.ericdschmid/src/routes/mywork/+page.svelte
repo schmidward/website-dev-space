@@ -1,5 +1,6 @@
 <script>
-    import image from '../../lib/images/02-06-2023_BM_RIVER-26.jpeg';
+    import content from '../../lib/content/mywork.json';
+
 </script>
 
 <section>
@@ -12,13 +13,14 @@
                 <p>Articles published by National Public Radio, St. Louis Public Radio, WSHU Public Radio, and independently.</p>
             </div>
         </div>
-        <hr />
-        <h1 class="year">2023</h1>
+        <div>
+            <hr />
+            <h1 class="year">2023</h1>
             <!-- Top layer  -->
-            <div class="left-sub-layer">
+            <div class="content-top-layer">
                 <!-- Photo on left -->
-                <div class="layer-one">
-                    <img src={image} alt="The Mississippi River"/>
+                <div class="left-sub-layer">
+                    <img src={content.img.src} alt="The Mississippi River"/>
                     <p class="caption">The Old Chain of Rocks Bridge is seen in the distance last week from the middle of the Mississippi River. 
                         Over the years, developers have been challenged in trying to tame the mighty river's shores for the sake 
                         of economic development. CREDIT: <em>BRIAN MUÑOZ /  ST. LOUIS PUBLIC RADIO</em></p>
@@ -35,9 +37,10 @@
                             <a class="read-more" href="https://news.stlpublicradio.org/economy-business/2023-02-14/riverfront-developments-face-obstacles-but-the-mississippi-river-itself-may-be-the-biggest">
                             READ AND LISTEN</a>
                         </div>
+                    </div>
                 </div>
-            </div>
-        <hr />
+            <hr />
+        </div>
     </div>
 </section>
 
@@ -62,14 +65,14 @@
     margin-left: 1.25%;
 }
 
-.left-sub-layer {
+.content-top-layer {
     display: flex;
     flex-direction: row;
     width: 100%;
     align-content: space-between;
 }
 
-.layer-one {
+.left-sub-layer {
     display: inline-block;
     width: 40%;
     box-sizing: border-box;
@@ -95,7 +98,7 @@ img {
 .headline {
     margin-top: -1.25%;
     margin-bottom: 2.5%;
-    font-size: 1.125em;
+    font-size: 1.25em;
     font-weight: bold;
 }
 

@@ -25,15 +25,13 @@
                 </div>
                 <!-- Headline and Description (dek) on right -->
                 <div class="right-sub-layer">
-                    <p class="headline">Riverfront developments face obstacles, but the Mississippi River itself may be the biggest</p>
-                    <p class="dek">Ideas for development along parts of the St. Louis riverfront have become more common in recent years.</p>
-                    <p class="dek">It’s a trend in communities along the entire 2,500-mile river with many seeing projects that promote the Mississippi’s natural 
-                    assets and expand capacity for transportation, ecotourism and restoration.</p>                        
-                    <p class="dek">These projects have an extra challenge in accommodating the Mississippi River, which is seeing frequent and massive fluctuations 
-                    in its level as the climate changes.</p>
+                    <p class="headline">{content.headline.text}</p>
+                    <!-- TODO: For/Each for the deks -->
+                    <p class="dek">{content.dek.one}</p>
+                    <p class="dek">{content.dek.two}</p>                        
+                    <p class="dek">{content.dek.three}</p>
                         <div class="button-link">
-                            <a class="read-more" href="https://news.stlpublicradio.org/economy-business/2023-02-14/riverfront-developments-face-obstacles-but-the-mississippi-river-itself-may-be-the-biggest">
-                            READ AND LISTEN</a>
+                            <a class="read-more" href={content.button.href}>READ AND LISTEN</a>
                         </div>
                     </div>
                 </div>

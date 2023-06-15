@@ -1,6 +1,5 @@
 <script>
     import content from '../../lib/content/mywork.json';
-
 </script>
 
 <section>

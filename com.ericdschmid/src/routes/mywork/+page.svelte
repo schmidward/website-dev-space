@@ -20,10 +20,8 @@
             <div class="content-top-layer">
                 <!-- Photo on left -->
                 <div class="left-sub-layer">
-                    <img src={content.img.src} alt="The Mississippi River"/>
-                    <p class="caption">The Old Chain of Rocks Bridge is seen in the distance last week from the middle of the Mississippi River. 
-                        Over the years, developers have been challenged in trying to tame the mighty river's shores for the sake 
-                        of economic development. CREDIT: <em>BRIAN MUÑOZ /  ST. LOUIS PUBLIC RADIO</em></p>
+                    <img src={content.img.src} alt={content.img.alt}/>
+                    <p class="caption">{content.caption.text}<em>{content.caption.credit}</em></p>
                 </div>
                 <!-- Headline and Description (dek) on right -->
                 <div class="right-sub-layer">

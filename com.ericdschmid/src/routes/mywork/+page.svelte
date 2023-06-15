@@ -1,5 +1,7 @@
 <script>
-    import content from '../../lib/content/mywork.json';
+    import previews from '../../lib/content/mywork.json';
+
+    console.log(previews.article[0]);
 </script>
 
 <section>
@@ -12,29 +14,31 @@
                 <p>Articles published by National Public Radio, St. Louis Public Radio, WSHU Public Radio, and independently.</p>
             </div>
         </div>
-        <div>
+        <div class="page-content-layer">
             <hr />
             <h1 class="year">2023</h1>
             <!-- Top layer  -->
+            {#each previews.article as preview}
             <div class="content-top-layer">
                 <!-- Photo on left -->
                 <div class="left-sub-layer">
-                    <img src={content.img.src} alt={content.img.alt}/>
-                    <p class="caption">{content.caption.text}<em>{content.caption.credit}</em></p>
+                    <img src={preview.data.img.src} alt={preview.data.img.alt}/>
+                    <p class="caption">{preview.data.caption.text}<em>{preview.data.caption.credit}</em></p>
                 </div>
                 <!-- Headline and Description (dek) on right -->
                 <div class="right-sub-layer">
-                    <p class="headline">{content.headline.text}</p>
+                    <p class="headline">{preview.data.headline.text}</p>
                     <!-- TODO: For/Each for the deks -->
-                    <p class="dek">{content.dek.one}</p>
-                    <p class="dek">{content.dek.two}</p>                        
-                    <p class="dek">{content.dek.three}</p>
+                    <p class="dek">{preview.data.dek.one}</p>
+                    <p class="dek">{preview.data.dek.two}</p>                        
+                    <p class="dek">{preview.data.dek.three}</p>
                         <div class="button-link">
-                            <a class="read-more" href={content.button.href}>READ AND LISTEN</a>
+                            <a class="read-more" href={preview.data.button.href}>READ AND LISTEN</a>
                         </div>
                     </div>
                 </div>
-            <hr />
+                <hr />
+            {/each}
         </div>
     </div>
 </section>
@@ -63,7 +67,7 @@
 .content-top-layer {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    max-width: 100%;
     align-content: space-between;
 }
 

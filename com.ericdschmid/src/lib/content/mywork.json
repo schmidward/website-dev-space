@@ -1,21 +1,52 @@
 {
-    "img": {
-        "src": "./src/lib/images/02-06-2023_BM_RIVER-26.jpeg",
-        "alt": "The Mississippi River"
-    },
-    "caption": {
-        "text": "The Old Chain of Rocks Bridge is seen in the distance last week from the middle of the Mississippi River. Over the years, developers have been challenged in trying to tame the mighty river's shores for the sake of economic development. CREDIT: ",
-        "credit": "BRIAN MUÑOZ / ST. LOUIS PUBLIC RADIO"
-    },
-    "headline": {
-        "text": "Riverfront developments face obstacles, but the Mississippi River itself may be the biggest"
-    },
-    "dek": {
-        "one": "Ideas for development along parts of the St. Louis riverfront have become more common in recent years.",
-        "two": "It’s a trend in communities along the entire 2,500-mile river with many seeing projects that promote the Mississippi’s natural assets and expand capacity for transportation, ecotourism and restoration.",
-        "three": "These projects have an extra challenge in accommodating the Mississippi River, which is seeing frequent and massive fluctuations in its level as the climate changes."
-    },
-    "button": {
-        "href": "https://news.stlpublicradio.org/economy-business/2023-02-14/riverfront-developments-face-obstacles-but-the-mississippi-river-itself-may-be-the-biggest"
-    }
+    "article": [
+        {
+            "slug": "Riverfront Developments",
+            "data": {
+                "img": {
+                "src": "./src/lib/images/02-06-2023_BM_RIVER-26.jpeg",
+                "alt": "The Mississippi River"
+            },
+            "caption": {
+                "text": "The Old Chain of Rocks Bridge is seen in the distance last week from the middle of the Mississippi River. Over the years, developers have been challenged in trying to tame the mighty river's shores for the sake of economic development. CREDIT: ",
+                "credit": "BRIAN MUÑOZ / ST. LOUIS PUBLIC RADIO"
+            },
+            "headline": {
+                "text": "Riverfront developments face obstacles, but the Mississippi River itself may be the biggest"
+            },
+            "dek": {
+                "one": "Ideas for development along parts of the St. Louis riverfront have become more common in recent years.",
+                "two": "It’s a trend in communities along the entire 2,500-mile river with many seeing projects that promote the Mississippi’s natural assets and expand capacity for transportation, ecotourism and restoration.",
+                "three": "These projects have an extra challenge in accommodating the Mississippi River, which is seeing frequent and massive fluctuations in its level as the climate changes."
+            },
+            "button": {
+                "href": "https://news.stlpublicradio.org/economy-business/2023-02-14/riverfront-developments-face-obstacles-but-the-mississippi-river-itself-may-be-the-biggest"
+            }
+        }
+        },
+        {
+            "slug": "Ukraine Shipments",
+            "data": {
+                "img": {
+                "src": "./src/lib/images/02-06-2023_BM_RIVER-26.jpeg",
+                "alt": "The Mississippi River"
+            },
+            "caption": {
+                "text": "The Old Chain of Rocks Bridge is seen in the distance last week from the middle of the Mississippi River. Over the years, developers have been challenged in trying to tame the mighty river's shores for the sake of economic development. CREDIT: ",
+                "credit": "BRIAN MUÑOZ / ST. LOUIS PUBLIC RADIO"
+            },
+            "headline": {
+                "text": "Riverfront developments face obstacles, but the Mississippi River itself may be the biggest"
+            },
+            "dek": {
+                "one": "Ideas for development along parts of the St. Louis riverfront have become more common in recent years.",
+                "two": "It’s a trend in communities along the entire 2,500-mile river with many seeing projects that promote the Mississippi’s natural assets and expand capacity for transportation, ecotourism and restoration.",
+                "three": "These projects have an extra challenge in accommodating the Mississippi River, which is seeing frequent and massive fluctuations in its level as the climate changes."
+            },
+            "button": {
+                "href": "https://news.stlpublicradio.org/economy-business/2023-02-14/riverfront-developments-face-obstacles-but-the-mississippi-river-itself-may-be-the-biggest"
+            }
+        }
+        }
+    ]
 }

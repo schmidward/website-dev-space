@@ -200,6 +200,113 @@
                     }
                 }
             ]
+        },
+        {
+            "year": "2021",
+            "articles": [
+                {
+                    "slug": "Illinois Redistricting",
+                    "data": {
+                        "img": {
+                            "src": "./src/lib/images/2021-11-10_BM_OFALLON.jpeg",
+                            "alt": "South Lincoln Avenue in O'Fallon, Illinois."
+                        },
+                        "caption": {
+                            "text": "Cars drive on South Lincoln Avenue in O'Fallon on Nov. 10, 2021. One of the fastest-growing cities in the Metro East will be split up by congressional redistricting. CREDIT: ",
+                            "credit": "BRIAN MUÑOZ / ST. LOUIS PUBLIC RADIO"
+                        },
+                        "headline": "Illinois' new congressional maps may favor Democrats, but they carve up cities like O'Fallon",
+                        "href": "https://news.stlpublicradio.org/government-politics-issues/2021-11-19/illinois-new-congressional-maps-may-favor-democrats-but-they-carve-up-cities-like-ofallon",
+                        "dek": [
+                            "Gerrymandering, a party’s manipulation of district boundaries for political advantage, contributes to polarization in the United States, dividing neighbors, family and friends. Yet few seem to know or care that they’re being manipulated for political power.",
+                            "“It seems like cherry-picking as far as the representatives are choosing their demographics,” said Charlie Cook, 38, a lifelong O’Fallon resident who opened the Happy Bakery in O’Fallon, IL eight years ago. “I don’t really support the idea of our representation being split that way just because anyone from O’Fallon should be able to go to the same representatives and be heard.”"
+                        ],
+                        "button": [
+                            {
+                                "text": "Read and Listen",
+                                "href": "https://news.stlpublicradio.org/government-politics-issues/2021-11-19/illinois-new-congressional-maps-may-favor-democrats-but-they-carve-up-cities-like-ofallon"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "slug": "Latino Census feature",
+                    "data": {
+                        "img": {
+                            "src": "./src/lib/images/2021-11-15_BM_LATINO-FEATURE.jpeg",
+                            "alt": "The inside of a traditional Mexican restaurant in Fairmont City, Illinois"
+                        },
+                        "caption": {
+                            "text": "Patrons sit in Mi Tierra Bonita Mexican Restaurant on Monday, Nov. 15, 2021, in Fairmont City, Illinois. The renovated restaurant opened in 2016 and sits in the 2020 Census tract with the largest Latino population in the St. Louis region. CREDIT: ",
+                            "credit": "BRIAN MUÑOZ / ST. LOUIS PUBLIC RADIO"
+                        },
+                        "headline": "The St. Louis region is already home for many Latinos and more are moving here",
+                        "href": "https://news.stlpublicradio.org/culture-history/2021-11-16/the-st-louis-region-is-already-home-for-many-latinos-and-more-are-moving-here",
+                        "dek": [
+                            "The overall population in the St. Louis region has barely budged in the past 10 years, but there has been robust growth in minority communities, particularly Latinos.",
+                            "Their population grew nearly 50% in the past decade across the 14-county St. Louis region defined by the U.S. Census Bureau, adding about 35,000 people to eclipse 100,000.",
+                            "Latinos were one of the only groups to add people in every part of the region."
+                        ],
+                        "button": [
+                            {
+                                "text": "Read and Listen",
+                                "href": "https://news.stlpublicradio.org/culture-history/2021-11-16/the-st-louis-region-is-already-home-for-many-latinos-and-more-are-moving-here"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "slug": "",
+                    "data": {
+                        "img": {
+                            "src": "./src/lib/images/2021-03-20_ES_DEWANDA-CROCHRELL-CAMPAIGNING.jpeg",
+                            "alt": "Dewanda Crochrell stands outside a voter's home in Madison, Illinois"
+                        },
+                        "caption": {
+                            "text": "Dewanda Crochrell speaks with a voter in Madison, IL on March 20, 2021. Crochrell won a spot on Venice Township’s Board of Trustees a in the following weeks. CREDIT: ",
+                            "credit": "ERIC SCHMID / ST. LOUIS PUBLIC RADIO"
+                        },
+                        "headline": "Slate of Black candidates wins spots in Metro East municipal governments",
+                        "href": "https://news.stlpublicradio.org/government-politics-issues/2021-03-26/metro-east-candidates-want-city-leadership-to-better-reflect-their-communities",
+                        "dek": [
+                            "A slate of Black candidates across the Metro East notched victories in municipal elections in April 2021. Many of them were running for elected office for the first time and vying for spots that had mostly been held by white residents.",
+                            "The political newcomers saw an opportunity to transform their locally elected councils and boards into ones that better reflect the people who reside in their communities."
+                        ],
+                        "button": [
+                            {
+                                "text": "Read and Listen",
+                                "href": "https://news.stlpublicradio.org/government-politics-issues/2021-03-26/metro-east-candidates-want-city-leadership-to-better-reflect-their-communities"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "slug": "",
+                    "data": {
+                        "img": {
+                            "src": "./src/lib/images/2021-02-01_DH_POWER-PLANT-DEMOLITION.jpeg",
+                            "alt": "The Woodriver Power station in East Alton, Illinois falls down as it's demolished"
+                        },
+                        "caption": {
+                            "text": "Workers watch from a safe distance as the main structure of the former Wood River Power Plant in East Alton is brought down by explosives on Feb. 1. There aren't established regulations in Illinois for how to demolish an old coal plant, leaving environmentalists worried there will be toxic disaster when more of these plants are demolished. CREDIT: ",
+                            "credit": "DERIK HOLTMANN / BELLEVILLE NEWS-DEMOCRAT"
+                        },
+                        "headline": "Lax oversight of coal plant demolitions could leave Illinois communities vulnerable",
+                        "href": "https://news.stlpublicradio.org/health-science-environment/2021-03-03/lax-oversight-of-coal-plant-demolitions-could-leave-illinois-communities-vulnerable",
+                        "dek": [
+                            "Environmentalists in Illinois worry that having few regulations for coal-fired power plant demolitions will increase the chance for a toxic disaster when these facilities are dismantled.",
+                            "Since 2009, 12 of the state’s 23 remaining coal power plants have closed, according to the Natural Resources Defense Council. More are set to come offline this decade. ",
+                            "The plant closures leave behind property with massive buildings and smokestacks laden with heavy metal byproducts, like mercury, arsenic and lead, from decades of burning coal. Most are still standing."
+                        ],
+                        "button": [
+                            {
+                                "text": "Read and Listen",
+                                "href": "https://news.stlpublicradio.org/health-science-environment/2021-03-03/lax-oversight-of-coal-plant-demolitions-could-leave-illinois-communities-vulnerable"
+                            }
+                        ]
+                    }
+                } 
+            ]
         }
     ]
 }

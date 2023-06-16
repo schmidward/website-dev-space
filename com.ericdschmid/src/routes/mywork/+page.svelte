@@ -1,6 +1,19 @@
 <script>
     import previews from '../../lib/content/mywork.json';
 
+    function content(yr) {
+        let arr = [];
+        for (let i=0; i < previews.content.length; i++) {
+            if (previews.content[i].year === yr) {
+                arr.push(previews.content[i]);
+                console.log(arr);
+            }            
+        }
+        return arr;
+    }
+    const year2023 = content(2023);
+    console.log(previews.content[0].year);
+    console.log(year2023);
 
 </script>
 

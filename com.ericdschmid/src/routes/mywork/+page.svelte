@@ -30,10 +30,10 @@
                 <!-- Headline and Description (dek) on right -->
                 <div class="right-sub-layer">
                     <p class="headline">{article.data.headline}</p>
-                    <!-- TODO: For/Each for the deks -->
-                    <p class="dek">{article.data.dek.one}</p>
-                    <p class="dek">{article.data.dek.two}</p>                        
-                    <p class="dek">{article.data.dek.three}</p>
+                    <!-- For each description sentence in the articles object display one paragraph line with the sentence -->
+                    {#each article.data.dek as dek}
+                    <p class="dek">{dek}</p>
+                    {/each}
                         <div class="button-link">
                             <a class="read-more" href={article.data.button.href} target="_blank">{article.data.button.text}</a>
                         </div>

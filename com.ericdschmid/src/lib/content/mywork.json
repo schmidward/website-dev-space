@@ -16,11 +16,11 @@
                         },
                         "headline": "Riverfront developments face obstacles, but the Mississippi River itself may be the biggest",
                         "href": "https://news.stlpublicradio.org/economy-business/2023-02-14/riverfront-developments-face-obstacles-but-the-mississippi-river-itself-may-be-the-biggest",
-                        "dek": {
-                            "one": "Ideas for development along parts of the St. Louis riverfront have become more common in recent years.",
-                            "two": "It’s a trend in communities along the entire 2,500-mile river with many seeing projects that promote the Mississippi’s natural assets and expand capacity for transportation, ecotourism and restoration.",
-                            "three": "These projects have an extra challenge in accommodating the Mississippi River, which is seeing frequent and massive fluctuations in its level as the climate changes."
-                        },
+                        "dek": [
+                            "Ideas for development along parts of the St. Louis riverfront have become more common in recent years.",
+                            "It’s a trend in communities along the entire 2,500-mile river with many seeing projects that promote the Mississippi’s natural assets and expand capacity for transportation, ecotourism and restoration.",
+                            "These projects have an extra challenge in accommodating the Mississippi River, which is seeing frequent and massive fluctuations in its level as the climate changes."
+                        ],
                         "button": {
                             "text": "Read and Listen",
                             "href": "https://news.stlpublicradio.org/economy-business/2023-02-14/riverfront-developments-face-obstacles-but-the-mississippi-river-itself-may-be-the-biggest"
@@ -40,11 +40,11 @@
                         },
                         "headline": "Pressures on Ukraine's power grid pose a challenge to U.S. aid delivery",
                         "href": "https://www.npr.org/2023/01/27/1152140618/pressures-on-ukraines-power-grid-pose-a-challenge-to-u-s-aid-delivery",
-                        "dek": {
-                            "one": "Since Russia’s invasion of Ukraine, the eastern European country has needed tanks, ammunition and other military aid.",
-                            "two": "The war has also devastated Ukraine's energy grid, and U.S. aid plays a critical role as the country struggles to keep the lights on.",
-                            "three": "But finding and sending components for Ukraine’s power sector is easier said than done."
-                        },
+                        "dek": [
+                            "Since Russia’s invasion of Ukraine, the eastern European country has needed tanks, ammunition and other military aid.",
+                            "The war has also devastated Ukraine's energy grid, and U.S. aid plays a critical role as the country struggles to keep the lights on.",
+                            "But finding and sending components for Ukraine’s power sector is easier said than done."
+                        ],
                         "button": {
                             "text": "Listen on NPR",
                             "href": "https://www.npr.org/2023/01/27/1152140618/pressures-on-ukraines-power-grid-pose-a-challenge-to-u-s-aid-delivery"
@@ -69,11 +69,10 @@
                         },
                         "headline": "Missouri knew of contamination in Springfield’s groundwater decades before anyone told residents",
                         "href": "https://news.stlpublicradio.org/health-science-environment/2022-10-19/missouri-knew-of-contamination-in-springfields-groundwater-decades-before-anyone-told-residents",
-                        "dek": {
-                            "one": "People living near Litton Industries, a company that did work for the Navy had no idea that a toxic solvent, disposed of improperly, had made its way into their drinking water – until a public apology from the state in 2019.",
-                            "two": "An investigation from St. Louis Public Radio and the Midwest Newsroom found the company and state regulators knew of the contamination as far back as 1980s and 90s.",
-                            "three": null
-                        },
+                        "dek": [
+                            "People living near Litton Industries, a company that did work for the Navy had no idea that a toxic solvent, disposed of improperly, had made its way into their drinking water – until a public apology from the state in 2019.",
+                            "An investigation from St. Louis Public Radio and the Midwest Newsroom found the company and state regulators knew of the contamination as far back as 1980s and 90s."
+                        ],
                         "button": {
                             "text": "Read the full Investigation",
                             "href": "https://news.stlpublicradio.org/health-science-environment/2022-10-19/missouri-knew-of-contamination-in-springfields-groundwater-decades-before-anyone-told-residents"
@@ -93,14 +92,37 @@
                         },
                         "headline": "An ‘insane’ housing market is hitting military families hard when they have to move",
                         "href": "https://news.stlpublicradio.org/economy-business/2022-11-17/an-insane-housing-market-is-hitting-military-families-hard-when-they-have-to-move",
-                        "dek": {
-                            "one": "Military families don’t have much of a choice when or where the Defense Department tells them to move.",
-                            "two": "Families who moved in 2021 and 2022 faced even more challenges than in years past. High inflation and tight housing markets in many parts of the U.S. forced them to spend more time and money just to find a place to live.",
-                            "three": null
-                        },
+                        "dek": [
+                            "Military families don’t have much of a choice when or where the Defense Department tells them to move.",
+                            "Families who moved in 2021 and 2022 faced even more challenges than in years past. High inflation and tight housing markets in many parts of the U.S. forced them to spend more time and money just to find a place to live."
+                        ],
                         "button": {
                             "text": "Listen on NPR",
                             "href": "https://www.npr.org/2022/12/12/1142320361/military-families-contend-with-high-inflation-and-housing-costs"
+                        }
+                    }
+                },
+                {
+                    "slug": "Space Force Fitness Tests",
+                    "data": {
+                        "img": {
+                            "src": "./src/lib/images/2022-06-09_ES_AIR-FORCE-FITNESS-TEST.jpeg",
+                            "alt": "An airman in runs along an outdoor track."
+                        },
+                        "caption": {
+                            "text": "Air Force service members run a timed 1.5 miles during their annual physical fitness test at Scott Air Force Base in Illinois in June. The U.S. Space Force intends to do away with once-a-year assessments in favor of wearable technology.  CREDIT: ",
+                            "credit": "ERIC SCHMID / ST. LOUIS PUBLIC RADIO"
+                        },
+                        "headline": "The Space Force is scrapping the annual fitness test in favor of wearable trackers",
+                        "href": "https://www.npr.org/sections/health-shots/2022/08/02/1113936229/space-force-annual-fitness-test-wearable-trackers",
+                        "dek": [
+                            "Annual physical fitness tests are a cornerstone of military life. Each service has its own take on the once-a-year assessment required by the Department of Defense.",
+                            "But the country's newest military branch is ditching that model.",
+                            "Members of the Space Force, called Guardians, won't have an annual test. Instead, they will get smart rings or other wearable fitness devices to keep track of their physical activity throughout the year."
+                        ],
+                        "button": {
+                            "text": "Listen on NPR",
+                            "href": "https://www.npr.org/2022/07/26/1113615351/encore-a-new-branch-of-the-military-is-taking-a-different-approach-to-fitness"
                         }
                     }
                 }

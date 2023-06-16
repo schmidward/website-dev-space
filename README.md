@@ -16,3 +16,7 @@ This is obviously a work in progress and I try to add to the build as often as p
 I plan to build out `mywork` to leverage a for/each loop on a growing .json file of all the content. This would make the content easier to manage and add to when a new article needs to be added to the page.
 
 I also will be making my own article pages so that I'm not linking to external websites.
+
+© 2023 Eric D. Schmid
+
+Images contained in this repo are *_NOT_* for redistribution. You must contact the original photographer for permission if you wish to use them.

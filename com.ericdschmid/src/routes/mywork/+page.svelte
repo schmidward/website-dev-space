@@ -1,7 +1,7 @@
 <script>
     import previews from '../../lib/content/mywork.json';
 
-    console.log(previews.article[0]);
+
 </script>
 
 <section>
@@ -18,7 +18,7 @@
             <hr />
             <h1 class="year">2023</h1>
             <!-- Top layer  -->
-            {#each previews.article as preview}
+            {#each previews.content as preview}
             <div class="content-top-layer">
                 <!-- Photo on left -->
                 <div class="left-sub-layer">

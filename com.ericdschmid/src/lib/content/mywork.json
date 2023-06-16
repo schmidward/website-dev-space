@@ -1,8 +1,9 @@
 {
-    "article": [
+    "content": [ 
         {
+            "year": 2023,
             "slug": "Riverfront Developments",
-                "data": {
+            "data": {
                     "img": {
                     "src": "./src/lib/images/02-06-2023_BM_RIVER-26.jpeg",
                     "alt": "The Mississippi River"
@@ -24,10 +25,11 @@
                     "href": "https://news.stlpublicradio.org/economy-business/2023-02-14/riverfront-developments-face-obstacles-but-the-mississippi-river-itself-may-be-the-biggest"
                 }
             }
-    },
+        },
         {
+            "year": 2023,
             "slug": "Ukraine Shipments",
-                "data": {
+            "data": {
                     "img": {
                     "src": "./src/lib/images/080922_USAF_Ukraine-Transport.jpg",
                     "alt": "United States Airmen load supplies onto an airplane."

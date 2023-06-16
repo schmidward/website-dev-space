@@ -1,12 +1,12 @@
 <script>
     import previews from '../../lib/content/mywork.json';
 
+    // TODO: WRITE TESTS FOR THIS FUNCITON
     function content(yr) {
         let arr = [];
         for (let i=0; i < previews.content.length; i++) {
             if (previews.content[i].year === yr) {
                 arr.push(previews.content[i]);
-                console.log(arr);
             }            
         }
         return arr;
@@ -40,7 +40,7 @@
                 </div>
                 <!-- Headline and Description (dek) on right -->
                 <div class="right-sub-layer">
-                    <p class="headline">{preview.data.headline.text}</p>
+                    <p class="headline">{preview.data.headline}</p>
                     <!-- TODO: For/Each for the deks -->
                     <p class="dek">{preview.data.dek.one}</p>
                     <p class="dek">{preview.data.dek.two}</p>                        
@@ -58,12 +58,17 @@
 
 <style>
 
-    :global(html) {
-        font-family: 'Titillium Web', sans-serif;
-    }
+:global(html) {
+    font-family: 'Titillium Web', sans-serif;
+    min-width: 550px;
+}
 
-    .main-content-wrapper {
-    padding: 100px;
+.main-content-wrapper {
+    padding: 10%;
+    max-width: 992px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .top-box {

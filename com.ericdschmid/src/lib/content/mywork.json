@@ -5,16 +5,14 @@
             "slug": "Riverfront Developments",
             "data": {
                 "img": {
-                    "src": "./src/lib/images/02-06-2023_BM_RIVER-26.jpeg",
+                    "src": "./src/lib/images/2023-02-06_BM_RIVER-26.jpeg",
                     "alt": "The Mississippi River"
                 },
                 "caption": {
                     "text": "The Old Chain of Rocks Bridge is seen in the distance last week from the middle of the Mississippi River. Over the years, developers have been challenged in trying to tame the mighty river's shores for the sake of economic development. CREDIT: ",
                     "credit": "BRIAN MUÑOZ / ST. LOUIS PUBLIC RADIO"
                 },
-                "headline": {
-                    "text": "Riverfront developments face obstacles, but the Mississippi River itself may be the biggest"
-                },
+                "headline": "Riverfront developments face obstacles, but the Mississippi River itself may be the biggest",
                 "dek": {
                     "one": "Ideas for development along parts of the St. Louis riverfront have become more common in recent years.",
                     "two": "It’s a trend in communities along the entire 2,500-mile river with many seeing projects that promote the Mississippi’s natural assets and expand capacity for transportation, ecotourism and restoration.",
@@ -30,17 +28,15 @@
             "year": 2023,
             "slug": "Ukraine Shipments",
             "data": {
-                    "img": {
-                    "src": "./src/lib/images/080922_USAF_Ukraine-Transport.jpg",
+                "img": {
+                    "src": "./src/lib/images/2022-08-09_USAF_Ukraine-Transport.jpg",
                     "alt": "United States Airmen load supplies onto an airplane."
                 },
                 "caption": {
                     "text": "Troops at Dover Air Force Base in Delaware load pallets of ammunition onto an aircraft bound for Ukraine on Aug. 9. CREDIT: ",
                     "credit": "CYDNEY LEE / U.S. AIR FORCE"
                 },
-                "headline": {
-                    "text": "Pressures on Ukraine's power grid pose a challenge to U.S. aid delivery"
-                },
+                "headline": "Pressures on Ukraine's power grid pose a challenge to U.S. aid delivery",
                 "dek": {
                     "one": "Since Russia’s invasion of Ukraine, the eastern European country has needed tanks, ammunition and other military aid.",
                     "two": "The war has also devastated Ukraine's energy grid, and U.S. aid plays a critical role as the country struggles to keep the lights on.",
@@ -49,6 +45,29 @@
                 "button": {
                     "text": "Listen on NPR",
                     "href": "https://www.npr.org/2023/01/27/1152140618/pressures-on-ukraines-power-grid-pose-a-challenge-to-u-s-aid-delivery"
+                }
+            }
+        },
+        {
+            "year": 2022,
+            "slug": "Springfield Investigation",
+            "data": {
+                "img": {
+                    "src": "./src/lib/images/2022-10-18-BM-LITTON-ILLO.jpeg",
+                    "alt": "Photo Illustration"
+                },
+                "caption": {
+                    "text": "For decades, officials knew pollution spread in Springfield’s groundwater but were slow to investigate. CREDIT: ",
+                    "credit": "BRIAN MUÑOZ / ST. LOUIS PUBLIC RADIO"
+                },
+                "headline": "Missouri knew of contamination in Springfield’s groundwater decades before anyone told residents",
+                "dek": {
+                    "one": "People living near Litton Industries, a company that did work for the Navy had no idea that a toxic solvent, disposed of improperly, had made its way into their drinking water – until a public apology from the state in 2019.",
+                    "two": "An investigation from St. Louis Public Radio and the Midwest Newsroom found the company and state regulators knew of the contamination as far back as 1980s and 90s."
+                },
+                "button": {
+                    "text": "Read the full Investigation",
+                    "href": "https://news.stlpublicradio.org/health-science-environment/2022-10-19/missouri-knew-of-contamination-in-springfields-groundwater-decades-before-anyone-told-residents"
                 }
             }
         }

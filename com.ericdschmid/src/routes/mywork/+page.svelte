@@ -63,7 +63,6 @@
 }
 
 .main-content-wrapper {
-    padding: 10%;
     max-width: 992px;
     display: block;
     margin-left: auto;
@@ -77,16 +76,21 @@
     text-align: center;  
 }
 
-.year {
-    margin-left: 1.25%;
-}
-
 .content-top-layer {
     display: flex;
     flex-direction: row;
     max-width: 100%;
     align-content: space-between;
 }
+
+h1 {
+    font-size: 3em;
+}
+
+.year {
+    margin-left: 1.25%;
+}
+
 
 .left-sub-layer {
     display: inline-block;

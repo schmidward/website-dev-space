@@ -125,6 +125,30 @@
                             "href": "https://www.npr.org/2022/07/26/1113615351/encore-a-new-branch-of-the-military-is-taking-a-different-approach-to-fitness"
                         }
                     }
+                },
+                {
+                    "slug": "Escape from Ukraine",
+                    "data": {
+                        "img": {
+                            "src": "./src/lib/images/2022-04-22_BM_ZRYBNIAKS.jpeg",
+                            "alt": "The Zrybniak family outside of their home in St. Charles, MO."
+                        },
+                        "caption": {
+                            "text": "Viktor Zribnyak, 69, and his wife Svitlana Zribnyak, 72, outside their son’s St. Charles, Missouri home on Monday, April 4, 2022. The couple had trekked Ukraine in a coordinated escape from the Russian invasion of the country. CREDIT: ",
+                            "credit": "BRIAN MUÑOZ / ST. LOUIS PUBLIC RADIO"
+                        },
+                        "headline": "Fear, hope and relief. One couple's journey from Ukraine to St. Charles",
+                        "href": "https://news.stlpublicradio.org/culture-history/2022-04-14/fear-hope-and-relief-one-couples-journey-from-ukraine-to-st-charles",
+                        "dek": [
+                            "About a week into Russia’s invasion of Ukraine, Viktor and Svitlana Zribnyak got a phone call from their son in St. Charles that would change their lives.",
+                            "Volodymyr Zribnyak told his parents they had an hour to pack what they could and leave their home of 40 years.",
+                            "“We realized there was an opportunity to avoid death,” Viktor said. “I had to act immediately. We collected all of the necessary documents that had been selected in advance, medicine, and left literally within an hour.”"
+                        ],
+                        "button": {
+                            "text": "Read and Listen",
+                            "href": "https://news.stlpublicradio.org/culture-history/2022-04-14/fear-hope-and-relief-one-couples-journey-from-ukraine-to-st-charles"
+                        }
+                    }
                 }
             ]
         }

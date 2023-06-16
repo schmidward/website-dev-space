@@ -21,12 +21,10 @@
                             "It’s a trend in communities along the entire 2,500-mile river with many seeing projects that promote the Mississippi’s natural assets and expand capacity for transportation, ecotourism and restoration.",
                             "These projects have an extra challenge in accommodating the Mississippi River, which is seeing frequent and massive fluctuations in its level as the climate changes."
                         ],
-                        "button": [
-                                {
-                                "text": "Read and Listen",
-                                "href": "https://news.stlpublicradio.org/economy-business/2023-02-14/riverfront-developments-face-obstacles-but-the-mississippi-river-itself-may-be-the-biggest"
-                            }
-                        ]
+                        "button": {
+                            "text": "Read and Listen",
+                            "href": "https://news.stlpublicradio.org/economy-business/2023-02-14/riverfront-developments-face-obstacles-but-the-mississippi-river-itself-may-be-the-biggest"
+                        }
                     }
                 },
                 {
@@ -47,12 +45,10 @@
                             "The war has also devastated Ukraine's energy grid, and U.S. aid plays a critical role as the country struggles to keep the lights on.",
                             "But finding and sending components for Ukraine’s power sector is easier said than done."
                         ],
-                        "button": [
-                                {
-                                "text": "Listen on NPR",
-                                "href": "https://www.npr.org/2023/01/27/1152140618/pressures-on-ukraines-power-grid-pose-a-challenge-to-u-s-aid-delivery"
-                            }
-                        ]
+                        "button": {
+                            "text": "Listen on NPR",
+                            "href": "https://www.npr.org/2023/01/27/1152140618/pressures-on-ukraines-power-grid-pose-a-challenge-to-u-s-aid-delivery"
+                        }
                     }
                 } 
             ]
@@ -77,12 +73,10 @@
                             "People living near Litton Industries, a company that did work for the Navy had no idea that a toxic solvent, disposed of improperly, had made its way into their drinking water – until a public apology from the state in 2019.",
                             "An investigation from St. Louis Public Radio and the Midwest Newsroom found the company and state regulators knew of the contamination as far back as 1980s and 90s."
                         ],
-                        "button": [
-                                {
-                                "text": "Read the full Investigation",
-                                "href": "https://news.stlpublicradio.org/health-science-environment/2022-10-19/missouri-knew-of-contamination-in-springfields-groundwater-decades-before-anyone-told-residents"
-                            }
-                        ]
+                        "button": {
+                            "text": "Read the full Investigation",
+                            "href": "https://news.stlpublicradio.org/health-science-environment/2022-10-19/missouri-knew-of-contamination-in-springfields-groundwater-decades-before-anyone-told-residents"
+                        }
                     }
                 },
                 {
@@ -102,16 +96,10 @@
                             "Military families don’t have much of a choice when or where the Defense Department tells them to move.",
                             "Families who moved in 2021 and 2022 faced even more challenges than in years past. High inflation and tight housing markets in many parts of the U.S. forced them to spend more time and money just to find a place to live."
                         ],
-                        "button": [
-                            {
-                                "text": "Read here",
-                                "href": "https://news.stlpublicradio.org/economy-business/2022-11-17/an-insane-housing-market-is-hitting-military-families-hard-when-they-have-to-move"
-                            },
-                            {
-                                "text": "Listen on NPR",
-                                "href": "https://www.npr.org/2022/12/12/1142320361/military-families-contend-with-high-inflation-and-housing-costs"
-                            }
-                        ]   
+                        "button": {
+                            "text": "Listen on NPR",
+                            "href": "https://www.npr.org/2022/12/12/1142320361/military-families-contend-with-high-inflation-and-housing-costs"
+                        }
                     }
                 },
                 {
@@ -132,16 +120,10 @@
                             "But the country's newest military branch is ditching that model.",
                             "Members of the Space Force, called Guardians, won't have an annual test. Instead, they will get smart rings or other wearable fitness devices to keep track of their physical activity throughout the year."
                         ],
-                        "button": [
-                            {
-                                "text": "Read here",
-                                "href": "https://www.npr.org/sections/health-shots/2022/08/02/1113936229/space-force-annual-fitness-test-wearable-trackers"
-                            },
-                            {
-                                "text": "Listen on NPR",
-                                "href": "https://www.npr.org/2022/07/26/1113615351/encore-a-new-branch-of-the-military-is-taking-a-different-approach-to-fitness"
-                            }
-                        ]  
+                        "button": {
+                            "text": "Listen on NPR",
+                            "href": "https://www.npr.org/2022/07/26/1113615351/encore-a-new-branch-of-the-military-is-taking-a-different-approach-to-fitness"
+                        }
                     }
                 },
                 {
@@ -162,12 +144,10 @@
                             "Volodymyr Zribnyak told his parents they had an hour to pack what they could and leave their home of 40 years.",
                             "“We realized there was an opportunity to avoid death,” Viktor said. “I had to act immediately. We collected all of the necessary documents that had been selected in advance, medicine, and left literally within an hour.”"
                         ],
-                        "button": [
-                            {
-                                "text": "Read and Listen",
-                                "href": "https://news.stlpublicradio.org/culture-history/2022-04-14/fear-hope-and-relief-one-couples-journey-from-ukraine-to-st-charles"
-                            }
-                        ]
+                        "button": {
+                            "text": "Read and Listen",
+                            "href": "https://news.stlpublicradio.org/culture-history/2022-04-14/fear-hope-and-relief-one-couples-journey-from-ukraine-to-st-charles"
+                        }
                     }
                 },
                 {
@@ -187,16 +167,10 @@
                             "In the U.S., tornadoes cause more annual fatalities than hurricanes and earthquakes combined. Yet there isn't a national standard mandating that large warehouses include storm shelters for workers, even after six died at an Edwardsville Amazon facility in December 2021.",
                             "And it wouldn’t cost much for developers to add one or multiple storm shelters to these buildings to protect the lives of workers inside."
                         ],
-                        "button": [
-                            {
-                                "text": "Read here",
-                                "href": "https://news.stlpublicradio.org/economy-business/2022-02-16/workers-at-dozens-of-metro-east-warehouses-have-no-safe-rooms-to-shelter-from-tornadoes"
-                            },
-                            {
-                                "text": "Listen on NPR",
-                                "href": "https://www.npr.org/2022/03/01/1083775442/even-in-tornado-prone-areas-storm-shelters-arent-required-in-warehouses"
-                            }
-                        ]
+                        "button": {
+                            "text": "Listen on NPR",
+                            "href": "https://www.npr.org/2022/03/01/1083775442/even-in-tornado-prone-areas-storm-shelters-arent-required-in-warehouses"
+                        }
                     }
                 }
             ]

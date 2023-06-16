@@ -35,7 +35,9 @@
                     <p class="dek">{dek}</p>
                     {/each}
                         <div class="button-link">
-                            <a class="read-more" href={article.data.button.href} target="_blank">{article.data.button.text}</a>
+                            {#each article.data.button as button}
+                            <a class="read-more" href={button.href} target="_blank">{button.text}</a>
+                            {/each}
                         </div>
                     </div>
                 </div>
@@ -80,6 +82,8 @@
 
 .year {
     margin-left: 1.25%;
+    margin-top: 1.75%;
+    margin-bottom: 1.75%;
     font-size: 2.5em;
 }
 
@@ -122,8 +126,7 @@ img {
 
 .button-link {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .read-more {

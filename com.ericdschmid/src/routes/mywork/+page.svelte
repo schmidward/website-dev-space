@@ -1,19 +1,6 @@
 <script>
     import previews from '../../lib/content/mywork.json';
 
-    // TODO: WRITE TESTS FOR THIS FUNCITON
-    function content(yr) {
-        let arr = [];
-        for (let i=0; i < previews.content.length; i++) {
-            if (previews.content[i].year === yr) {
-                arr.push(previews.content[i]);
-            }            
-        }
-        return arr;
-    }
-    const year2023 = content(2023);
-
-
 </script>
 
 <section>
@@ -28,28 +15,32 @@
         </div>
         <div class="page-content-layer">
             <hr />
-            <h1 class="year">2023</h1>
+            <!-- For each year in the JSON file display the year -->
+            {#each previews.previews as preview}
+            <h1 class="year">{preview.year}</h1>
             <!-- Top layer  -->
-            {#each previews.content as preview}
+            <!-- For each article conained in each year, display each individual article -->
+            {#each preview.articles as article}
             <div class="content-top-layer">
                 <!-- Photo on left -->
                 <div class="left-sub-layer">
-                    <img src={preview.data.img.src} alt={preview.data.img.alt}/>
-                    <p class="caption">{preview.data.caption.text}<em>{preview.data.caption.credit}</em></p>
+                    <img src={article.data.img.src} alt={article.data.img.alt}/>
+                    <p class="caption">{article.data.caption.text}<em>{article.data.caption.credit}</em></p>
                 </div>
                 <!-- Headline and Description (dek) on right -->
                 <div class="right-sub-layer">
-                    <p class="headline">{preview.data.headline}</p>
+                    <p class="headline">{article.data.headline}</p>
                     <!-- TODO: For/Each for the deks -->
-                    <p class="dek">{preview.data.dek.one}</p>
-                    <p class="dek">{preview.data.dek.two}</p>                        
-                    <p class="dek">{preview.data.dek.three}</p>
+                    <p class="dek">{article.data.dek.one}</p>
+                    <p class="dek">{article.data.dek.two}</p>                        
+                    <p class="dek">{article.data.dek.three}</p>
                         <div class="button-link">
-                            <a class="read-more" href={preview.data.button.href}>{preview.data.button.text}</a>
+                            <a class="read-more" href={article.data.button.href} target="_blank">{article.data.button.text}</a>
                         </div>
                     </div>
                 </div>
                 <hr />
+            {/each}
             {/each}
         </div>
     </div>
@@ -76,6 +67,10 @@
     text-align: center;  
 }
 
+.top-box h1 {
+    font-size: 3em;
+}
+
 .content-top-layer {
     display: flex;
     flex-direction: row;
@@ -83,12 +78,9 @@
     align-content: space-between;
 }
 
-h1 {
-    font-size: 3em;
-}
-
 .year {
     margin-left: 1.25%;
+    font-size: 2.5em;
 }
 
 
@@ -140,7 +132,10 @@ img {
     padding: 4%;
     text-align: center;
     text-decoration: none;
-    
+}
+
+.read-more:hover {
+    background-color: #9b3b3b;
 }
 
 </style>

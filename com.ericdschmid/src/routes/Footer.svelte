@@ -1,7 +1,7 @@
 <footer class="full-width">
     <div class="container">
         <p>© 2023 Eric D. Schmid</p>
-        <p><a href="https://github.com/schmidward/website-redesign">See the underlying code for this webiste</a></p>
+        <p><a href="https://github.com/schmidward/website-redesign" target="_blank">See the underlying code for this webiste</a></p>
     </div>
 </footer>
 

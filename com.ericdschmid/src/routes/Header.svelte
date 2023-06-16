@@ -53,7 +53,15 @@ li {
 }
 
 a {
-    color: white;
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #d2d2d2;
 }
 
 .nav-links li {

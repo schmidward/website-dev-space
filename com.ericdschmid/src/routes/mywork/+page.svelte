@@ -114,7 +114,7 @@ img {
 .headline {
     margin-top: -1.25%;
     margin-bottom: 2.5%;
-    font-size: 1.25em;
+    font-size: 1.75em;
     font-weight: bold;
 }
 

@@ -471,6 +471,86 @@
                     }
                 }  
             ]
+        },
+        {
+            "year": "2018",
+            "articles": [
+                {
+                    "slug": "Terry Sheridan and 9/11",
+                    "data": {
+                        "img": {
+                            "src": "./src/lib/images/2018-09-11_SG_TERRY-SHERIDAN.jpeg",
+                            "alt": "Terry Sheridan in a WSHU Public Radio Studio"
+                        },
+                        "caption": {
+                            "text": "WSHU News Director Terry Sheridan. CREDIT: ",
+                            "credit": "SABRINA GARONE / WSHU"
+                        },
+                        "headline": "A journalist recalls the transformational experience of covering 9/11",
+                        "href": "http://www.wshu.org/post/journalist-recalls-transformational-experience-covering-911#stream/0",
+                        "dek": [
+                            "Tragedies often make us think of first responders – firefighters, paramedics, police officers – but we rarely consider how emergencies affect the journalists who cover them.",
+                            "Terry Sheridan, now WSHU’s news director, reported on the aftermath of the 9/11 attacks. Eric Schmid spoke with Terry about his experience 17 years later."
+                        ],
+                        "button": [
+                            {
+                                "text": "Read and Listen",
+                                "href": "http://www.wshu.org/post/journalist-recalls-transformational-experience-covering-911#stream/0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "slug": "Unsheltered Project",
+                    "data": {
+                        "img": {
+                            "src": "./src/lib/images/2018-05-23_UNSHELTERED.png",
+                            "alt": "Screenshot of the Unsheltered Homepage"
+                        },
+                        "caption": {
+                            "text": "",
+                            "credit": ""
+                        },
+                        "headline": "Unsheltered",
+                        "href": "https://brookenf.github.io/Unsheltered/",
+                        "dek": [
+                            "The 2018 Dow Jones News Fund Interns investigate homelessness in Phoenix, Arizona.",
+                            "The large scale multimedia project focuses on the some of the many challenges, like substance abuse and access to healthcare, that Phoenix's unsheltered homeless population faces daily."
+                        ],
+                        "button": [
+                            {
+                                "text": "Read more",
+                                "href": "https://brookenf.github.io/Unsheltered/"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "slug": "Missing Representation",
+                    "data": {
+                        "img": {
+                            "src": "./src/lib/images/2018-03_ES_VIVETT-DUKES.jpeg",
+                            "alt": "Vivett Dukes"
+                        },
+                        "caption": {
+                            "text": "Vivett Dukes, who teaches in New York. CREDIT: ",
+                            "credit": "ERIC SCHMID"
+                        },
+                        "headline": "Missing Representation",
+                        "href": "http://eschmid.journodev.com/",
+                        "dek": [
+                            "About 80% of all public school teachers in the United States are white, while the students in those classrooms are far more diverse.",
+                            "What problems and issues arise from majority white teaching staffs? And why should you care?"
+                        ],
+                        "button": [
+                            {
+                                "text": "Read more",
+                                "href": "http://eschmid.journodev.com/"
+                            }
+                        ]
+                    }
+                }  
+            ]
         }
     ]
 }

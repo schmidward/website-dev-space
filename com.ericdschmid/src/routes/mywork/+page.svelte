@@ -33,7 +33,7 @@
                     <p class="dek">{preview.data.dek.two}</p>                        
                     <p class="dek">{preview.data.dek.three}</p>
                         <div class="button-link">
-                            <a class="read-more" href={preview.data.button.href}>READ AND LISTEN</a>
+                            <a class="read-more" href={preview.data.button.href}>{preview.data.button.text}</a>
                         </div>
                     </div>
                 </div>

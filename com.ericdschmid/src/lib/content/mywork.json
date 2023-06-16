@@ -2,51 +2,53 @@
     "article": [
         {
             "slug": "Riverfront Developments",
-            "data": {
-                "img": {
-                "src": "./src/lib/images/02-06-2023_BM_RIVER-26.jpeg",
-                "alt": "The Mississippi River"
-            },
-            "caption": {
-                "text": "The Old Chain of Rocks Bridge is seen in the distance last week from the middle of the Mississippi River. Over the years, developers have been challenged in trying to tame the mighty river's shores for the sake of economic development. CREDIT: ",
-                "credit": "BRIAN MUÑOZ / ST. LOUIS PUBLIC RADIO"
-            },
-            "headline": {
-                "text": "Riverfront developments face obstacles, but the Mississippi River itself may be the biggest"
-            },
-            "dek": {
-                "one": "Ideas for development along parts of the St. Louis riverfront have become more common in recent years.",
-                "two": "It’s a trend in communities along the entire 2,500-mile river with many seeing projects that promote the Mississippi’s natural assets and expand capacity for transportation, ecotourism and restoration.",
-                "three": "These projects have an extra challenge in accommodating the Mississippi River, which is seeing frequent and massive fluctuations in its level as the climate changes."
-            },
-            "button": {
-                "href": "https://news.stlpublicradio.org/economy-business/2023-02-14/riverfront-developments-face-obstacles-but-the-mississippi-river-itself-may-be-the-biggest"
+                "data": {
+                    "img": {
+                    "src": "./src/lib/images/02-06-2023_BM_RIVER-26.jpeg",
+                    "alt": "The Mississippi River"
+                },
+                "caption": {
+                    "text": "The Old Chain of Rocks Bridge is seen in the distance last week from the middle of the Mississippi River. Over the years, developers have been challenged in trying to tame the mighty river's shores for the sake of economic development. CREDIT: ",
+                    "credit": "BRIAN MUÑOZ / ST. LOUIS PUBLIC RADIO"
+                },
+                "headline": {
+                    "text": "Riverfront developments face obstacles, but the Mississippi River itself may be the biggest"
+                },
+                "dek": {
+                    "one": "Ideas for development along parts of the St. Louis riverfront have become more common in recent years.",
+                    "two": "It’s a trend in communities along the entire 2,500-mile river with many seeing projects that promote the Mississippi’s natural assets and expand capacity for transportation, ecotourism and restoration.",
+                    "three": "These projects have an extra challenge in accommodating the Mississippi River, which is seeing frequent and massive fluctuations in its level as the climate changes."
+                },
+                "button": {
+                    "text": "Read and Listen",
+                    "href": "https://news.stlpublicradio.org/economy-business/2023-02-14/riverfront-developments-face-obstacles-but-the-mississippi-river-itself-may-be-the-biggest"
+                }
             }
-        }
-        },
+    },
         {
             "slug": "Ukraine Shipments",
-            "data": {
-                "img": {
-                "src": "./src/lib/images/02-06-2023_BM_RIVER-26.jpeg",
-                "alt": "The Mississippi River"
-            },
-            "caption": {
-                "text": "The Old Chain of Rocks Bridge is seen in the distance last week from the middle of the Mississippi River. Over the years, developers have been challenged in trying to tame the mighty river's shores for the sake of economic development. CREDIT: ",
-                "credit": "BRIAN MUÑOZ / ST. LOUIS PUBLIC RADIO"
-            },
-            "headline": {
-                "text": "Riverfront developments face obstacles, but the Mississippi River itself may be the biggest"
-            },
-            "dek": {
-                "one": "Ideas for development along parts of the St. Louis riverfront have become more common in recent years.",
-                "two": "It’s a trend in communities along the entire 2,500-mile river with many seeing projects that promote the Mississippi’s natural assets and expand capacity for transportation, ecotourism and restoration.",
-                "three": "These projects have an extra challenge in accommodating the Mississippi River, which is seeing frequent and massive fluctuations in its level as the climate changes."
-            },
-            "button": {
-                "href": "https://news.stlpublicradio.org/economy-business/2023-02-14/riverfront-developments-face-obstacles-but-the-mississippi-river-itself-may-be-the-biggest"
+                "data": {
+                    "img": {
+                    "src": "./src/lib/images/080922_USAF_Ukraine-Transport.jpg",
+                    "alt": "United States Airmen load supplies onto an airplane."
+                },
+                "caption": {
+                    "text": "Troops at Dover Air Force Base in Delaware load pallets of ammunition onto an aircraft bound for Ukraine on Aug. 9. CREDIT: ",
+                    "credit": "CYDNEY LEE / U.S. AIR FORCE"
+                },
+                "headline": {
+                    "text": "Pressures on Ukraine's power grid pose a challenge to U.S. aid delivery"
+                },
+                "dek": {
+                    "one": "Since Russia’s invasion of Ukraine, the eastern European country has needed tanks, ammunition and other military aid.",
+                    "two": "The war has also devastated Ukraine's energy grid, and U.S. aid plays a critical role as the country struggles to keep the lights on.",
+                    "three": "But finding and sending components for Ukraine’s power sector is easier said than done."
+                },
+                "button": {
+                    "text": "Listen on NPR",
+                    "href": "https://www.npr.org/2023/01/27/1152140618/pressures-on-ukraines-power-grid-pose-a-challenge-to-u-s-aid-delivery"
+                }
             }
-        }
         }
     ]
 }

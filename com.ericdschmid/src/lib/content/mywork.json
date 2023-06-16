@@ -307,6 +307,88 @@
                     }
                 } 
             ]
+        },
+        {
+            "year": "2020",
+            "articles": [
+                {
+                    "slug": "Illegal Evictions",
+                    "data": {
+                        "img": {
+                            "src": "./src/lib/images/2020_DK_EVICTION-ILLO.png",
+                            "alt": "Photo Illustration"
+                        },
+                        "caption": {
+                            "text": "Landlords have filed nearly 200 eviction cases in Madison County in the months following Illinois Gov. J.B. Pritzker's executive order banning eviction filings. The governor signed the executive order in late April. CREDIT: ",
+                            "credit": "DAVID KOVALUK / ST. LOUIS PUBLIC RADIO"
+                        },
+                        "headline": "Madison County court allowed eviction cases to proceed despite Illinois' statewide ban",
+                        "href": "https://news.stlpublicradio.org/government-politics-issues/2020-09-21/madison-county-court-allowed-eviction-cases-to-proceed-despite-illinois-statewide-ban",
+                        "dek": [
+                            "The Madison County Circuit Court allowed landlords to file hundreds of eviction cases despite an order from the governor banning filings during the coronavirus pandemic.",
+                            "In late April, Illinois Gov. J.B. Pritzker barred individuals and organizations from filing residential eviction actions in court to help keep people who may have fallen behind on rent for their homes during the state’s stay-at-home orders. The decision to continue eviction proceedings renters confused and frustrated after thinking they were safe from official filings."
+                        ],
+                        "button": [
+                            {
+                                "text": "Read the Investigation",
+                                "href": "https://news.stlpublicradio.org/government-politics-issues/2020-09-21/madison-county-court-allowed-eviction-cases-to-proceed-despite-illinois-statewide-ban"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "slug": "Gender Nonconforming Census Feature",
+                    "data": {
+                        "img": {
+                            "src": "./src/lib/images/2020_NT_CENSUS-ILLO.png",
+                            "alt": "Photo Illustration"
+                        },
+                        "caption": {
+                            "text": "The census will only ask if respondents are 'male' or 'female.' That leaves out a growing number of people who identify outside of that gender binary. CREDIT: ",
+                            "credit": "NAT THOMAS / ST. LOUIS PUBLIC RADIO"
+                        },
+                        "headline": "The 2020 Census is underway, but nonbinary and gender-nonconforming respondents feel counted out",
+                        "href": "https://news.stlpublicradio.org/politics-issues/2020-03-17/the-2020-census-is-underway-but-nonbinary-and-gender-nonconforming-respondents-feel-counted-out",
+                        "dek": [
+                            "The U.S. Census Bureau started collecting responses to this year's headcount en masse, sending individual letters requesting a response to the headcount homes across on March 12.",
+                            "The survey, which happens once every decade in the U.S., collects the most comprehensive data about the demographic makeup of the country. ",
+                            "One small but vulnerable population in the U.S. won’t be counted in the survey this time around, however. That’s because of how the question that asks about people’s sex appears on the form. The 2020 headcount only asks if people are “male” or “female.”"
+                        ],
+                        "button": [
+                            {
+                                "text": "Read and Listen",
+                                "href": "https://news.stlpublicradio.org/politics-issues/2020-03-17/the-2020-census-is-underway-but-nonbinary-and-gender-nonconforming-respondents-feel-counted-out"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "slug": "Metro East Underground Railroad",
+                    "data": {
+                        "img": {
+                            "src": "./src/lib/images/2020-02-26_ES_BROOKLYN-AME-CHAPLE.png",
+                            "alt": "The Quinn Chapel AME Church in Brooklyn, Illinois"
+                        },
+                        "caption": {
+                            "text": "The Quinn Chapel A.M.E. Church in Brooklyn, Illinois. The church is one of two verified Underground Railroad locations in the Metro East. CREDIT: ",
+                            "credit": "ERIC SCHMID / ST. LOUIS PUBLIC RADIO"
+                        },
+                        "headline": "Uncovering the underground railroad’s hidden past in the Metro East",
+                        "href": "https://news.stlpublicradio.org/arts-culture/2020-02-28/uncovering-the-underground-railroads-hidden-past-in-the-metro-east",
+                        "dek": [
+                            "On the outskirts of this St. Clair County village, a small green sign reveals how many people live there — about 750. The small community is about five square blocks and sits a few thousand feet from the Mississippi River. ",
+                            "Yet for a village with less than 1,000 residents, there are 12 churches. The oldest, the Quinn Chapel A.M.E. Church, was established in 1825 as a Methodist church.",
+                            "It stands apart for its role in the Underground Railroad, helping slaves in Missouri escape to freedom."
+                        ],
+                        "button": [
+                            {
+                                "text": "Read and Listen",
+                                "href": "https://news.stlpublicradio.org/arts-culture/2020-02-28/uncovering-the-underground-railroads-hidden-past-in-the-metro-east"
+                            }
+                        ]
+                    }
+                }  
+            ]
         }
     ]
 }

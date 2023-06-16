@@ -34,14 +34,14 @@
                     {#each article.data.dek as dek}
                     <p class="dek">{dek}</p>
                     {/each}
-                        <div class="button-link">
-                            {#each article.data.button as button}
-                            <a class="read-more" href={button.href} target="_blank">{button.text}</a>
-                            {/each}
-                        </div>
+                    <div class="button-link">
+                        {#each article.data.button as button}
+                        <a class="read-more" href={button.href} target="_blank">{button.text}</a>
+                        {/each}
                     </div>
                 </div>
-                <hr />
+            </div>
+            <hr />
             {/each}
             {/each}
         </div>
@@ -132,7 +132,9 @@ img {
 .read-more {
     background-color: #912121;
     color: white;
-    padding: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 3%;
     text-align: center;
     text-decoration: none;
 }

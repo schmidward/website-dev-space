@@ -13,6 +13,7 @@
                     "credit": "BRIAN MUÑOZ / ST. LOUIS PUBLIC RADIO"
                 },
                 "headline": "Riverfront developments face obstacles, but the Mississippi River itself may be the biggest",
+                "href": "https://news.stlpublicradio.org/economy-business/2023-02-14/riverfront-developments-face-obstacles-but-the-mississippi-river-itself-may-be-the-biggest",
                 "dek": {
                     "one": "Ideas for development along parts of the St. Louis riverfront have become more common in recent years.",
                     "two": "It’s a trend in communities along the entire 2,500-mile river with many seeing projects that promote the Mississippi’s natural assets and expand capacity for transportation, ecotourism and restoration.",
@@ -37,6 +38,7 @@
                     "credit": "CYDNEY LEE / U.S. AIR FORCE"
                 },
                 "headline": "Pressures on Ukraine's power grid pose a challenge to U.S. aid delivery",
+                "href": "https://www.npr.org/2023/01/27/1152140618/pressures-on-ukraines-power-grid-pose-a-challenge-to-u-s-aid-delivery",
                 "dek": {
                     "one": "Since Russia’s invasion of Ukraine, the eastern European country has needed tanks, ammunition and other military aid.",
                     "two": "The war has also devastated Ukraine's energy grid, and U.S. aid plays a critical role as the country struggles to keep the lights on.",
@@ -61,13 +63,40 @@
                     "credit": "BRIAN MUÑOZ / ST. LOUIS PUBLIC RADIO"
                 },
                 "headline": "Missouri knew of contamination in Springfield’s groundwater decades before anyone told residents",
+                "href": "https://news.stlpublicradio.org/health-science-environment/2022-10-19/missouri-knew-of-contamination-in-springfields-groundwater-decades-before-anyone-told-residents",
                 "dek": {
                     "one": "People living near Litton Industries, a company that did work for the Navy had no idea that a toxic solvent, disposed of improperly, had made its way into their drinking water – until a public apology from the state in 2019.",
-                    "two": "An investigation from St. Louis Public Radio and the Midwest Newsroom found the company and state regulators knew of the contamination as far back as 1980s and 90s."
+                    "two": "An investigation from St. Louis Public Radio and the Midwest Newsroom found the company and state regulators knew of the contamination as far back as 1980s and 90s.",
+                    "three": null
                 },
                 "button": {
                     "text": "Read the full Investigation",
                     "href": "https://news.stlpublicradio.org/health-science-environment/2022-10-19/missouri-knew-of-contamination-in-springfields-groundwater-decades-before-anyone-told-residents"
+                }
+            }
+        },
+        {
+            "year": 2022,
+            "slug": "Military Families Moving",
+            "data": {
+                "img": {
+                    "src": "./src/lib/images/2022-11-16_LK_HOUSING-IN-COLORADO-SPRINGS.jpeg",
+                    "alt": "Homes line a stree with the Colorado mountains in the background."
+                },
+                "caption": {
+                    "text": "A view of the Colorado Springs subdivision where Lisa Koroma and her family live on Nov. 16. Koroma said her family spent a month searching for suitable housing when they moved to Colorado late last year. CREDIT: ",
+                    "credit": "LISA KOROMA"
+                },
+                "headline": "An ‘insane’ housing market is hitting military families hard when they have to move",
+                "href": "https://news.stlpublicradio.org/economy-business/2022-11-17/an-insane-housing-market-is-hitting-military-families-hard-when-they-have-to-move",
+                "dek": {
+                    "one": "Military families don’t have much of a choice when or where the Defense Department tells them to move.",
+                    "two": "Families who moved in 2021 and 2022 faced even more challenges than in years past. High inflation and tight housing markets in many parts of the U.S. forced them to spend more time and money just to find a place to live.",
+                    "three": null
+                },
+                "button": {
+                    "text": "Listen on NPR",
+                    "href": "https://www.npr.org/2022/12/12/1142320361/military-families-contend-with-high-inflation-and-housing-costs"
                 }
             }
         }

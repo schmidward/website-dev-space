@@ -12,8 +12,7 @@
         return arr;
     }
     const year2023 = content(2023);
-    console.log(previews.content[0].year);
-    console.log(year2023);
+
 
 </script>
 

@@ -13,9 +13,7 @@ This is obviously a work in progress and I try to add to the build as often as p
 
 ## Current Next steps
 
-I plan to build out `mywork` to leverage a for/each loop on a growing .json file of all the content. This would make the content easier to manage and add to when a new article needs to be added to the page.
-
-I also will be making my own article pages so that I'm not linking to external websites.
+I want to develope individual pages for each of the articles listed in on `/mywork`. This will include styling and formatting for a headeline, description (dek), body content. The challenge is that _some_ of the articles listed also have an audio component and I will need to investigate how to best handle that with Svelte.
 
 © 2023 Eric D. Schmid
 

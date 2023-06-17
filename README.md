@@ -15,6 +15,8 @@ This is obviously a work in progress and I try to add to the build as often as p
 
 I want to develope individual pages for each of the articles listed in on `/mywork`. This will include styling and formatting for a headeline, description (dek), body content. The challenge is that _some_ of the articles listed also have an audio component and I will need to investigate how to best handle that with Svelte.
 
+I have to think also about how to create the paths to these individual articles and a way to make it a template that's driven by code blocks to self-populate. Luckily, Svelte is super simple in defining routes/paths compared to other frontend frameworks.
+
 © 2023 Eric D. Schmid
 
 Images contained in this repo are *_NOT_* for redistribution. You must contact the original photographer for permission if you wish to use them.

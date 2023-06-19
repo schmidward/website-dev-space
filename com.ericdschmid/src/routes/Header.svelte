@@ -29,7 +29,7 @@ background-color: #912121;
 }
 
 header {
-  width: 100%;
+  width: 100vw;
 }
 
 .header-container {
@@ -37,7 +37,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 100px;
+    padding: 20px 50px;
 }
 
 .nav-links {

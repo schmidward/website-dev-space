@@ -66,7 +66,7 @@ figure {
 
 .hero {
     position: relative;
-    width: 98vw;
+    width: 100vw;
     height: 100vh;
 }
 

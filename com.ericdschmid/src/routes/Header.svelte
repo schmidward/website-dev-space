@@ -4,6 +4,7 @@
     <div class='logo'>
         <h1><a href="/">Eric D. Schmid</a></h1>
     </div>
+    <!-- TODO: Lock nav bar at the top -->
         <nav>
             <ul class='nav-links'>
                 <li>

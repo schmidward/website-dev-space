@@ -11,7 +11,7 @@
                     <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="/mywork">My Work</a>
+                    <a class="text-3xl" href="/mywork">My Work</a>
                 </li>
                 <li>
                     <a href="/about">About Me</a>

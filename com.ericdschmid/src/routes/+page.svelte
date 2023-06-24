@@ -8,7 +8,7 @@
     <div class="hero-inner" id='section-0'>
         <figure></figure>
         <div class="hero__title">
-            <h2>Eric D. Schmid</h2>
+            <h2 class="font-semibold">Eric D. Schmid</h2>
             <h3>Investigative Journalist | Software Engineer</h3>
         </div>
     </div>

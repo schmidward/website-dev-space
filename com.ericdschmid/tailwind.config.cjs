@@ -5,6 +5,7 @@ export default {
     colors: {
       'red': '#912121',
       'hover-red': '#9b3b3b',
+      'dark-red': '#771b1b',
       'grey': '#d2d2d2',
       'white': '#ffffff'  
     },

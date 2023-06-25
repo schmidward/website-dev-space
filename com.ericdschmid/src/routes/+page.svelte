@@ -3,7 +3,12 @@
 </script>
 
 <body>
-<section class="hero">
+<section class="relative w-screen h-screen">
+    <div 
+        class="bg-fixed bg-left-top bg-cover w-full h-full" 
+        style="background-image: url('./src/lib/images/home-image-bikes.jpeg');">
+
+    </div>
 
     <div class="hero-inner" id='section-0'>
         <figure></figure>
@@ -72,6 +77,7 @@ figure {
 
 .hero:nth-child(1) figure {
     background-image: url("../lib/images/home-image-bikes.jpeg");
+    opacity: 80%;
 }
 
 .hero-inner {

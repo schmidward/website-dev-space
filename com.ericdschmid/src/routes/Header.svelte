@@ -1,3 +1,7 @@
+<script>
+    let y
+    $: offscreen = y > 100
+</script>
 
 <header class='bg-red'>
     <div class="flex items-center justify-between py-5 px-12 text-white">

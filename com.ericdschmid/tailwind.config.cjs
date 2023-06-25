@@ -4,8 +4,9 @@ export default {
   theme: {
     colors: {
       'red': '#912121',
+      'hover-red': '#9b3b3b',
       'grey': '#d2d2d2',
-      'white': '#ffffff' 
+      'white': '#ffffff'  
     },
     fontFamily: {
       sans: ['Titillium Web', 'sans-serif']

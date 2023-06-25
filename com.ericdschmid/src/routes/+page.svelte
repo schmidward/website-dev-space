@@ -69,17 +69,6 @@ figure {
     background-size: cover;
 }
 
-.hero {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-}
-
-.hero:nth-child(1) figure {
-    background-image: url("../lib/images/home-image-bikes.jpeg");
-    opacity: 80%;
-}
-
 .hero-inner {
     position: absolute;
     overflow: hidden;

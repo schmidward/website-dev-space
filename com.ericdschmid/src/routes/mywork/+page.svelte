@@ -13,7 +13,7 @@
                 <p>Articles published by National Public Radio, St. Louis Public Radio, WSHU Public Radio, and independently.</p>
             </div>
         </div>
-        <div>
+        <div class="ml-5 mr-5">
             <hr />
             
             <!-- For each year in the JSON file display the year -->
@@ -26,9 +26,9 @@
             <!-- For each article conained in each year, display each individual article -->
             
             {#each preview.articles as article}
-            <div class="flex flex-row content-between max-w-full">
+            <div class="flex flex-col md:flex-row content-between max-w-full">
                 <!-- Photo on left -->
-                <div class="inline-block w-2/5 box-border items-start m-2">
+                <div class="inline-block md:w-2/5 box-border items-start m-2">
                     <img 
                         class="w-full"
                         src={article.data.img.src} 
@@ -40,7 +40,7 @@
                     </p>
                 </div>
                 <!-- Headline and Description (dek) on right -->
-                <div class="w-3/5 items-start justify-end m-2">
+                <div class="md:w-3/5 items-start justify-end m-2">
                     <p class="-mt-1.5 mb-3 text-3xl font-bold">
                         {article.data.headline}
                     </p>
@@ -48,7 +48,7 @@
                     <!-- For each description sentence in the articles object display one paragraph line with the sentence -->
                 
                     {#each article.data.dek as dek}
-                    <p class="mt-3 text-base font-extralight">{dek}</p>
+                    <p class="mt-3 text-lg font-light">{dek}</p>
                     {/each}
                     <div class="flex justify-around mt-3">
                         {#each article.data.button as button}

@@ -1,6 +1,5 @@
 <script>
     import previews from '../../lib/content/mywork.json';
-
 </script>
 
 <section>

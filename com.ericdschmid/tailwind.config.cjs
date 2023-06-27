@@ -7,6 +7,7 @@ export default {
       'hover-red': '#9b3b3b',
       'dark-red': '#771b1b',
       'grey': '#d2d2d2',
+      'blue': '#0e3261',
       'white': '#ffffff'  
     },
     fontFamily: {

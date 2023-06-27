@@ -7,19 +7,44 @@
     <div 
         class="bg-fixed bg-left-top bg-cover w-full h-full" 
         style="background-image: url('./src/lib/images/home-image-bikes.jpeg');">
-
-    </div>
-
-    <div class="hero-inner" id='section-0'>
-        <figure></figure>
-        <div class="hero__title">
-            <h2 class="font-semibold">Eric D. Schmid</h2>
-            <h3>Investigative Journalist | Software Engineer</h3>
+        <div class="bg-blue/40 w-full h-full">
+            <div class="flex flex-col items-center justify-center w-full h-full">
+                <p class="text-white font-semibold text-5xl sm:text-7xl md:text-9xl">Eric D. Schmid</p>
+                <p class="text-white text-3xl sm:text-5xl md:text-7xl mt-7">Investigative Journalist | Software Engineer</p>
+            </div>
         </div>
     </div>
 </section>
-<section class="content">
+<section>
+    <div class="w-full h-full">
+        <div class="flex flex-row justify-center mt-10">
+            <img class="w-1/4 mr-5" src="./src/lib/images/2022-02-11_ES_Alicia-Steele.jpeg" alt="Alicia Steel sitting with her son's service dog."/>
+            <img class="w-1/4 ml-5 mr-5" src="./src/lib/images/ranch-sunset.jpeg" alt="A sunset in Wyoming."/>
+        </div>
+        <div class="flex flex-row justify-center mt-10">
+            <img class="w-1/4 mr-5" src="./src/lib/images/2022-02-11_ES_Alicia-Steele.jpeg" alt="Alicia Steel sitting with her son's service dog."/>
+            <img class="w-1/4 ml-5 mr-5" src="./src/lib/images/2022-02-11_ES_Alicia-Steele.jpeg" alt="Alicia Steel sitting with her son's service dog."/>
+        </div>
+
+
+    </div>
+
 <article class="content__inner">
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
+    <p>Some text</p>
     <p>Some text</p>
     <p>Some text</p>
     <p>Some text</p>
@@ -54,70 +79,7 @@
 
 
 <style>
-    * {
-    box-sizing: border-box;
-}
 
-figure {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-}
-
-.hero-inner {
-    position: absolute;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    clip: rect(0,auto,auto,0);
-}
-
-@supports(-webkit-overflow-scrolling: touch){
-    .hero-inner {
-        clip: unset;
-        -webkit-clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-                clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    }
-}
-
-.hero__title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: .5rem; 
-    width: 100%;
-    height: 100%;
-    color: white;
-    text-align: center;
-}
-
-h2 {
-    font-size: 6vw;
-    margin-block-start: 1.25%;
-    margin-block-end: 1.25%;
-}
-
-h3 {
-    font-size: 4vw;
-    margin-block-start: 1.25%;
-    margin-block-end: 1.25%;
-}
-
-
-.content{
-    position: relative;
-    margin: 0 auto 8rem;
-    padding: 2rem;
-}
 
 
 </style>

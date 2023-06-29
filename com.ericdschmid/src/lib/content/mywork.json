@@ -7,24 +7,28 @@
                     "slug": "Riverfront Developments",
                     "data": {
                         "img": {
-                            "src": "./src/lib/images/2023-02-06_BM_RIVER-26.jpeg",
-                            "alt": "The Mississippi River"
+                            "src": "./src/lib/images/2023-05-24_ES_Mike Sertle_Lower-End-2.jpg",
+                            "alt": "Mike Sertle in a restored wetland in Illinois."
                         },
                         "caption": {
-                            "text": "The Old Chain of Rocks Bridge is seen in the distance last week from the middle of the Mississippi River. Over the years, developers have been challenged in trying to tame the mighty river's shores for the sake of economic development. CREDIT: ",
-                            "credit": "BRIAN MUÑOZ / ST. LOUIS PUBLIC RADIO"
+                            "text": "Mike Sertle indicates how high the water can get in a roughly 250-acre restored wetland behind him on Horseshoe Lake in Illinois on May 24. Sertle, who manages wetlands restoration projects on the Mississippi River for Ducks Unlimited, explained that these projects help store excess water from river flooding and heavy rains. CREDIT: ",
+                            "credit": "ERIC SCHMID / ST. LOUIS PUBLIC RADIO"
                         },
-                        "headline": "Riverfront developments face obstacles, but the Mississippi River itself may be the biggest",
-                        "href": "https://news.stlpublicradio.org/economy-business/2023-02-14/riverfront-developments-face-obstacles-but-the-mississippi-river-itself-may-be-the-biggest",
+                        "headline": "Wetlands restoration is key to avoiding the worst of future floods along the Mississippi",
+                        "href": "https://news.stlpublicradio.org/health-science-environment/2023-06-29/wetlands-restoration-is-key-to-avoiding-the-worst-of-future-floods-along-the-mississippi",
                         "dek": [
-                            "Ideas for development along parts of the St. Louis riverfront have become more common in recent years.",
-                            "It’s a trend in communities along the entire 2,500-mile river with many seeing projects that promote the Mississippi’s natural assets and expand capacity for transportation, ecotourism and restoration.",
-                            "These projects have an extra challenge in accommodating the Mississippi River, which is seeing frequent and massive fluctuations in its level as the climate changes."
+                            "A changing climate poses considerable threats to many communities, and those along the country's major rivers are no exception, especially during floods.",
+                            "The floods of today are carrying more water and lasting longer than they once did.",
+                            "Cities along the countries largest river are now turning to nature to protect their communities and investments along the Mississippi Riverfront."
                         ],
                         "button": [
                                 {
-                                "text": "Read and Listen",
-                                "href": "https://news.stlpublicradio.org/economy-business/2023-02-14/riverfront-developments-face-obstacles-but-the-mississippi-river-itself-may-be-the-biggest"
+                                "text": "Read here",
+                                "href": "https://news.stlpublicradio.org/health-science-environment/2023-06-29/wetlands-restoration-is-key-to-avoiding-the-worst-of-future-floods-along-the-mississippi"
+                            },
+                            {
+                                "text": "Listen on Marketplace",
+                                "href": "https://www.marketplace.org/2023/06/20/as-mississippi-riverfront-development-booms-wetlands-become-crucial-to-stave-off-flooding/"
                             }
                         ]
                     }

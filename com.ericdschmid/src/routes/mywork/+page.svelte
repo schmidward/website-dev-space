@@ -40,14 +40,14 @@
                 </div>
                 <!-- Headline and Description (dek) on right -->
                 <div class="md:w-3/5 items-start justify-end m-2">
-                    <p class="-mt-1.5 mb-3 text-3xl font-bold">
+                    <p class="-mt-1.5 mb-3 text-2xl font-semibold">
                         {article.data.headline}
                     </p>
                 
                     <!-- For each description sentence in the articles object display one paragraph line with the sentence -->
                 
                     {#each article.data.dek as dek}
-                    <p class="mt-3 text-lg font-light">{dek}</p>
+                    <p class="mt-3 text-lg font-extralight">{dek}</p>
                     {/each}
                     <div class="flex justify-around mt-3">
                         {#each article.data.button as button}

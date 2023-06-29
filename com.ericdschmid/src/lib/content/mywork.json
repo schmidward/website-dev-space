@@ -34,6 +34,31 @@
                     }
                 },
                 {
+                    "slug": "Workforce Development",
+                    "data": {
+                        "img": {
+                            "src": "./src/lib/images/2023-04-19_ES_SWIC-2.jpg",
+                            "alt": "Two students discuss how to machine a metal piece."
+                        },
+                        "caption": {
+                            "text": "Lemola Mason, left, and Aiden Johnson discuss the CNC mill machine settings for an assignment at Southwestern Illinois College's Sam Wolf Campus last month in Granite City. Mason and Johnson are students in the community college's precision machining program. CREDIT: ",
+                            "credit": "ERIC SCHMID / ST. LOUIS PUBLIC RADIO"
+                        },
+                        "headline": "St. Louis’ economic future requires a lot more trained workers and fast",
+                        "href": "https://news.stlpublicradio.org/economy-business/2023-05-03/st-louis-economic-future-requires-a-lot-more-trained-workers-and-fast",
+                        "dek": [
+                            "The St. Louis region has staked a significant portion of its future economic development on technologies and industries that are still emerging.",
+                            "To make this bet on things like geospatial, advanced manufacturing and agtech successful, the region will need many more workers ready to enter those fields when employers come calling in the next few years."
+                        ],
+                        "button": [
+                            {
+                                "text": "Read and Listen",
+                                "href": "https://news.stlpublicradio.org/economy-business/2023-05-03/st-louis-economic-future-requires-a-lot-more-trained-workers-and-fast"
+                            }
+                        ]
+                    }
+                }, 
+                {
                     "slug": "Ukraine Shipments",
                     "data": {
                         "img": {

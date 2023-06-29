@@ -25,7 +25,7 @@
         <img class="object-cover object-center h-full" src="./src/lib/images/nascar.jpeg" alt="Alicia Steel sitting with her son's service dog."/>
     </div>
 
-<div class="max-w-screen-lg block mr-auto ml-auto text-lg md:text-xl lg:text-2xl">
+<div class="max-w-screen-lg block mr-auto ml-auto text-lg md:text-xl">
     <p class="mt-7 mr-20 ml-20">
             <span class="font-bold text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/people/eric-schmid" target="_blank">
                 Eric Schmid
@@ -62,7 +62,7 @@
         </a></span>in 2018 as the valedictorian of the <span class="text-dark-red hover:text-hover-red"><a href="https://www.stonybrook.edu/journalism/" target="_blank">School of Journalism</a></span>.
     </p>
     <p class="mt-7 mr-20 ml-20">Lead image by Brian Muñoz. All other photography by Eric Schmid.</p>
-    <div class="flex flex-col ml-60 mr-60 mt-3 mb-4 md:ml-0 md:mr-0 md:flex-row md:justify-around">
+    <div class="flex flex-col ml-44 mr-44 mt-3 mb-4 md:ml-0 md:mr-0 md:flex-row md:justify-around">
         <a  class="bg-red text-white mt-3 mb-3 p-5 text-center hover:bg-hover-red" 
             href="/about">
             About Me

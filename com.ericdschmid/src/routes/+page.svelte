@@ -61,7 +61,21 @@
             Stony Brook University
         </a></span>in 2018 as the valedictorian of the <span class="text-dark-red hover:text-hover-red"><a href="https://www.stonybrook.edu/journalism/" target="_blank">School of Journalism</a></span>.
     </p>
-    <p class="mt-7 mb-7 mr-20 ml-20">Lead image by Brian Muñoz. All other photography by Eric Schmid.</p>
+    <p class="mt-7 mr-20 ml-20">Lead image by Brian Muñoz. All other photography by Eric Schmid.</p>
+    <div class="flex flex-col ml-60 mr-60 mt-3 mb-4 md:ml-0 md:mr-0 md:flex-row md:justify-around">
+        <a  class="bg-red text-white mt-3 mb-3 p-5 text-center hover:bg-hover-red" 
+            href="/about">
+            About Me
+        </a>
+        <a  class="bg-red text-white mt-3 mb-3 p-5 text-center hover:bg-hover-red" 
+            href="/mywork">
+            Published Work
+        </a>
+        <a  class="bg-red text-white mt-3 mb-3 p-5 text-center hover:bg-hover-red" 
+            href="/resume">
+            Resume
+        </a>
+    </div>
 </div>
 
 </section> 

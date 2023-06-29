@@ -1,4 +1,6 @@
 <script>
+	import Footer from "./Footer.svelte";
+
 
 </script>
 
@@ -16,28 +18,50 @@
     </div>
 </section>
 <section>
-    <div class="m-16 md:mr-60 md:ml-60 md:mt-20 md:mb-20 grid gap-4 grid-cols-2">
+    <div class="m-20 md:mr-36 md:ml-36 lg:mr-48 lg:ml-48 md:mt-20 md:mb-20 grid gap-4 grid-cols-2">
         <img class="object-cover" src="./src/lib/images/2022-02-11_ES_Alicia-Steele.jpeg" alt="Alicia Steel sitting with her son's service dog."/>    
         <img class="object-cover h-full" src="./src/lib/images/ranch-sunset.jpeg" alt="A sunset in Wyoming."/>
         <img class="object-cover h-100" src="./src/lib/images/2022-08-14_ES_Underground-Cave.jpeg" alt="Alicia Steel sitting with her son's service dog."/>
         <img class="object-cover object-center h-full" src="./src/lib/images/nascar.jpeg" alt="Alicia Steel sitting with her son's service dog."/>
     </div>
 
-<div class="max-w-screen-lg block mr-auto ml-auto text-2xl">
-    <p class="m-7">Eric Schmid is a multimedia journalist based in St. Louis with 5+ years experience primarily in print-, digital-, and audio-focused newsrooms. 
-        He has demonstrated success developing strong continuing news coverage and producing large scale reporting projects independently and as part 
-        of a team. This includes advanced skill with source building, story pitching, public records, long-term coverage planning, interviewing, and 
-        audio editing/mixing.</p>
-    <p class="m-7">His reporting experience spans from breaking hard news to enterprise and investigative features and he excels at producing content native to 
-        digital/print and audio/radio platforms. Eric gravitates toward complicated stories with many moving parts and enjoys the challenge of ingesting 
-        and distilling large swaths of information into cohesive, intriguing, and manageable stories. He is adept at covering most topics, though his 
-        enterprise work regularly returns to stories about the environment, public policy, and the census and demographics.</p>
-    <p class="m-7">Eric joined St. Louis Public Radio in June 2019 as their first ever Metro East Reporter, tasked with expanding and developing the station’s 
+<div class="max-w-screen-lg block mr-auto ml-auto text-lg md:text-xl lg:text-2xl">
+    <p class="mt-7 mr-20 ml-20">
+            <span class="font-bold text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/people/eric-schmid" target="_blank">
+                Eric Schmid
+            </a></span> 
+        is a multimedia journalist based in St. Louis with over five years of experience in print-, digital-, and audio-focused newsrooms. He has demonstrated 
+        success developing 
+            <span class="text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/people/eric-schmid" target="_blank">
+                strong continuing news coverage
+            </a></span> 
+        and producing large scale reporting projects both 
+            <span class="text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/economy-business/2022-02-16/workers-at-dozens-of-metro-east-warehouses-have-no-safe-rooms-to-shelter-from-tornadoes" target="_blank">
+                independently
+            </a></span> 
+        and as 
+            <span class="text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/health-science-environment/2022-10-19/missouri-knew-of-contamination-in-springfields-groundwater-decades-before-anyone-told-residents" target="_blank">
+                part of a team</a></span>. 
+        This includes advanced skill with source building, story pitching, public records, long-term coverage planning, interviewing, and audio editing/mixing.</p>
+    <p class="mt-7 mr-20 ml-20">
+        His reporting experience spans breaking hard news to enterprise and investigative features and he excels at producing content native to 
+        digital/print and audio/radio platforms. Eric gravitates toward complicated and nuanced stories and he enjoys the challenge of ingesting 
+        and distilling large swaths of information into cohesive, intriguing, and conscice stories. He is adept at covering many topics, though his 
+        enterprise work regularly returns to stories about the 
+            <span class="text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/health-science-environment/2023-06-29/wetlands-restoration-is-key-to-avoiding-the-worst-of-future-floods-along-the-mississippi" target="_blank">
+                environment</a></span>, and
+            <span class="text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/economy-business/2023-05-03/st-louis-economic-future-requires-a-lot-more-trained-workers-and-fast" target="_blank">
+                economics</a></span>.
+    </p>
+    <p class="mt-7 mr-20 ml-20">Eric joined St. Louis Public Radio in June 2019 as their first ever Metro East Reporter, tasked with expanding and developing the station’s 
         coverage of suburban St. Louis communities east of the Mississippi River. In June 2022, he was promoted to cover economic development across St. 
         Louis, a region of 2.8 million people.</p>
-    <p class="m-7">Before joining St. Louis Public Radio, Eric held internships at Fox News Channel, NPR member station WSHU Public Radio, and AccuWeather. He graduated 
-        from Stony Brook University in 2018 as the valedictorian of the School of Journalism.</p>
-    <p class="m-7">Lead image by Brian Muñoz. All other photography on this page by Eric Schmid.</p>
+    <p class="mt-7 mr-20 ml-20">Before joining St. Louis Public Radio, Eric held internships at Fox News Channel, NPR member station WSHU Public Radio, and AccuWeather. He graduated from 
+        <span class="text-dark-red hover:text-hover-red"><a href="https://www.stonybrook.edu/" target="_blank">
+            Stony Brook University
+        </a></span>in 2018 as the valedictorian of the <span class="text-dark-red hover:text-hover-red"><a href="https://www.stonybrook.edu/journalism/" target="_blank">School of Journalism</a></span>.
+    </p>
+    <p class="mt-7 mb-7 mr-20 ml-20">Lead image by Brian Muñoz. All other photography by Eric Schmid.</p>
 </div>
 
 </section> 

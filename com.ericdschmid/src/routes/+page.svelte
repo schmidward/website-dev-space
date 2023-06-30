@@ -20,9 +20,9 @@
 <section>
     <div class="m-20 md:mr-36 md:ml-36 lg:mr-48 lg:ml-48 md:mt-20 md:mb-20 grid gap-4 grid-cols-2">
         <img class="object-cover" src="./src/lib/images/2022-02-11_ES_Alicia-Steele.jpeg" alt="Alicia Steel sitting with her son's service dog."/>    
-        <img class="object-cover h-full" src="./src/lib/images/ranch-sunset.jpeg" alt="A sunset in Wyoming."/>
-        <img class="object-cover h-100" src="./src/lib/images/2022-08-14_ES_Underground-Cave.jpeg" alt="An underground cave in southern missouri"/>
-        <img class="object-cover object-center h-full" src="./src/lib/images/nascar-crop.jpg" alt="Joey Logano celebrates a victory in the Illinois 300 NASCAR race."/>
+        <img class="object-cover" src="./src/lib/images/ranch-sunset-crop.jpg" alt="A sunset in Wyoming."/>
+        <img class="object-cover" src="./src/lib/images/2022-08-14_ES_Underground-Cave.jpeg" alt="An underground cave in southern missouri"/>
+        <img class="object-cover" src="./src/lib/images/nascar-crop.jpg" alt="Joey Logano celebrates a victory in the Illinois 300 NASCAR race."/>
     </div>
 
 <div class="max-w-screen-lg block mr-auto ml-auto text-lg md:text-xl">

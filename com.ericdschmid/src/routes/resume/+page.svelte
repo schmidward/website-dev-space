@@ -2,6 +2,14 @@
     <div class="max-w-screen-lg block mr-auto ml-auto">
         <div class="m-10 text-7xl font-semibold text-center">
             Resume
+            <div class="flex flex-col ml-44 mr-44 mt-3 mb-4 md:ml-0 md:mr-0 md:flex-row md:justify-around">
+                <div class="bg-red text-white mt-3 mb-3 p-5 text-center hover:bg-hover-red" >
+                    Journalism
+                </div>
+                <div class="bg-red text-white mt-3 mb-3 p-5 text-center hover:bg-hover-red" >
+                    Software Development
+                </div>
+                </div>
         </div>
         <hr />
             <div class="mt-8 flex flex-col">

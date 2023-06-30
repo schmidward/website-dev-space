@@ -13,7 +13,11 @@ export default {
     fontFamily: {
       sans: ['Titillium Web', 'sans-serif']
     },
-    extend: {},
+    extend: {
+      height: {
+        'screen-half': '50vh'
+      }
+    },
   },
   plugins: [],
 }

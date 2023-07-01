@@ -1,4 +1,4 @@
-<section class=" w-screen h-screen">
+<section>
     <div class="max-w-screen-lg block mr-auto ml-auto">
         <div class="m-10 text-7xl font-semibold text-center">
             Resume
@@ -11,7 +11,7 @@
                 </div>
             </div>
         </div>
-        <div class="ml-8 mr-8 flex flex-col">
+        <div class="ml-8 mr-8 mb-10 flex flex-col">
             <hr class="mb-8" />
                 <div>
                     <p class="-ml-1 text-8xl font-bold">Eric D. Schmid</p>
@@ -33,8 +33,8 @@
                     <p class="leading-tight text-base">• Features custom built components and routing to display static news content dynamically across all screen sizes</p>
                     <p class="leading-tight text-base">• Implements JSON and OOP principles for lightweight, scaleable, and reusable code</p>
                 </div>
-                <div class="flex flex-row">
-                    <div class="w-9/12">
+                <div class="flex flex-col lg:flex-row">
+                    <div class="lg:w-9/12">
                         <p class="text-2xl font-semibold mt-3 ">Professional Experience</p>
                         <div class="mb-2">
                             <p class="text-lg"><span class="font-semibold">Economic Development Reporter</span> — St. Louis Public Radio, St. Louis, MO</p>
@@ -76,40 +76,44 @@
                             <p class="leading-none">Bachelor of Arts in Journalism, Business Management Minor</p>
                         </div>
                     </div>
-                    <div class="w-3/12">
-                        <p class="text-2xl font-semibold mt-3 ">Skills</p>
-                        <div class="mb-2">
-                            <p class="text-lg font-semibold">Programming Languages</p>
-                            <p class="leading-tight text-lg">• Java</p>
-                            <p class="leading-tight text-lg">• JavaScript / TypeScript</p>
-                            <p class="leading-tight text-lg">• HTML5 / CSS3</p>
+                    <div class="flex flex-row lg:flex-col lg:w-3/12">
+                        <div class="w-2/5 lg:w-auto">
+                            <p class="text-2xl font-semibold mt-3">Skills</p>
+                            <div class="mb-2">
+                                <p class="text-lg font-semibold">Programming Languages</p>
+                                <p class="leading-tight text-lg">• Java</p>
+                                <p class="leading-tight text-lg">• JavaScript / TypeScript</p>
+                                <p class="leading-tight text-lg">• HTML5 / CSS3</p>
+                            </div>
+                            <div class="mb-2">
+                                <p class="text-lg font-semibold">Frameworks</p>
+                                <p class="leading-tight text-lg">• React</p>
+                                <p class="leading-tight text-lg">• Svelte</p>
+                                <p class="leading-tight text-lg">• Spring Boot</p>
+                                <p class="leading-tight text-lg">• Spring Security</p>
+                            </div>
+                            <div class="mb-2">
+                                <p class="text-lg font-semibold">Databases</p>
+                                <p class="leading-tight text-lg">• MySQL</p>
+                                <p class="leading-tight text-lg">• PostgreSQL</p>
+                            </div>
+                            <div class="mb-2">
+                                <p class="text-lg font-semibold">Tools</p>
+                                <p class="leading-tight text-lg">• Grunt</p>
+                                <p class="leading-tight text-lg">• Node</p>
+                                <p class="leading-tight text-lg">• REST</p>
+                            </div>
                         </div>
-                        <div class="mb-2">
-                            <p class="text-lg font-semibold">Frameworks</p>
-                            <p class="leading-tight text-lg">• React</p>
-                            <p class="leading-tight text-lg">• Svelte</p>
-                            <p class="leading-tight text-lg">• Spring Boot</p>
-                            <p class="leading-tight text-lg">• Spring Security</p>
+                        <div class="w-3/5 lg:w-auto">
+                            <p class="text-2xl font-semibold mt-3 ">Awards & Honors</p>
+                            <div class="mt-2 mb-3">
+                                <p class="text-lg font-semibold leading-none">2022 IRE Award Finalist & 2023 Region 5 Murrow Award</p>
+                                <p class="leading-none mt-1">For original and revelatory watchdog journalism exposing a 25-year coverup of toxic groundwater contamination in Springfield, Missouri.</p>
+                            </div>
+                            <div class="mt-2 mb-2">
+                                <p class="text-lg font-semibold leading-none">Keynote Speaker</p>
+                                <p class="leading-none mt-1">2022 Mississippi River Basin Ag & Water Desk Conference</p>
                         </div>
-                        <div class="mb-2">
-                            <p class="text-lg font-semibold">Databases</p>
-                            <p class="leading-tight text-lg">• MySQL</p>
-                            <p class="leading-tight text-lg">• PostgreSQL</p>
-                        </div>
-                        <div class="mb-2">
-                            <p class="text-lg font-semibold">Tools</p>
-                            <p class="leading-tight text-lg">• Grunt</p>
-                            <p class="leading-tight text-lg">• Node</p>
-                            <p class="leading-tight text-lg">• REST</p>
-                        </div>
-                        <p class="text-2xl font-semibold mt-3 ">Awards & Honors</p>
-                        <div class="mt-2 mb-3">
-                            <p class="text-lg font-semibold leading-none">2022 IRE Award Finalist & 2023 Region 5 Murrow Award</p>
-                            <p class="leading-none mt-1">For original and revelatory watchdog journalism exposing a 25-year coverup of toxic groundwater contamination in Springfield, Missouri.</p>
-                        </div>
-                        <div class="mt-2 mb-2">
-                            <p class="text-lg font-semibold leading-none">Keynote Speaker</p>
-                            <p class="leading-none mt-1">2022 Mississippi River Basin Ag & Water Desk Conference</p>
                         </div>
                     </div>
                 </div>

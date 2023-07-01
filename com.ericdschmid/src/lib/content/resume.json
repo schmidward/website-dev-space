@@ -1,0 +1,38 @@
+{
+    "software": {
+        "name": "Eric D. Schmid",
+        "subhead": "Software Developer in St. Louis, MO",
+        "dek": "I excel asking thoughtful and pointed questions that cut to the heart of an issue or topic and I relish the chllenge of distilling complex information into clear and manageable packages. My experience as an investigative journalist equips me with the skills to quickly solve complex problems and it means I'm comfortable communicating and collaborating with anyone.",
+        "links": [
+            {
+                "text": "GitHub: ",
+                "href": "https:/github.com/schmidward"
+            },
+            {
+                "text": " | LinkedIn: ",
+                "href": "https:/www.linkedin.com/in/ericdschmid/"
+            }
+        ],
+        "projectHed": "Project Experience",
+        "projects": [
+            {
+                "title": "User Administration Context",
+                "subhead": "Web based user registration and login service",
+                "dek": [
+                    "• Implements Spring Security, with JWT token, CSRF cookies, REST and remote database to administer users and secure private APIs",
+                    "• Frontend user context, login and registration designed in React"
+                ]
+            },
+            {
+                "title": "www.ericdschmid.com",
+                "subhead": "Redesign of personal portfolio website to leverage Svelte and Tailwindcss frameworks",
+                "dek": [
+                    "• Features custom built components and routing to display static news content dynamically across all screen sizes",
+                    "• Implements JSON and OOP principles for lightweight, scaleable, and reusable code"
+                ]
+            }
+        ]
+        
+
+    }
+}

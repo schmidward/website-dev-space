@@ -59,6 +59,34 @@
                 "subhead": "National Public Radio, Marketplace, Science Friday",
                 "date": "April 2018 - Present",
                 "dek": "Pitches, reports, and produces original news content for national platforms"
+            },
+            {
+                "title": "Dow Jones News Fund Digital Media Intern",
+                "subhead": "AccuWeather, State College, PA",
+                "date": "June 2018 - August 2018",
+                "dek": "Produced video content toping five million views on company website and socials"
+            },
+            {
+                "title": "College Associate",
+                "subhead": "Shepard Smith Reporting, Fox News Channel, New York, NY",
+                "date": "June 2017 - August 2017",
+                "dek": "Sourced video content for a live national broadcast reaching millions of people each day"
+            }
+        ],
+        "educationHed": "Education",
+        "education": [
+            {
+                "title": "LaunchCode",
+                "subhead": " - St. Louis, MO — September 2022 - June 2023",
+                "dek": "30-week full-stack development course in JavaScript, Angular, Java, and Spring Boot",
+                "subdek": [
+                    "• Project experience reviewing and completing code bases to unit test specifications"
+                ]
+            },
+            {
+                "title": "Stony Brook University",
+                "subhead": " - Stony Brook, NY — Class of 2018",
+                "dek": "Bachelor of Arts in Journalism, Business Management Minor"   
             }
         ]
     }

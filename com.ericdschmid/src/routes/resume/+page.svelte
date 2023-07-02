@@ -52,38 +52,18 @@
                             {/if}
                         </div>
                         {/each}
+                        <p class="text-2xl font-semibold mt-3 ">{resume.educationHed}</p>
+                        {#each resume.education as education}
                         <div class="mb-2">
-                            <p class="text-lg"><span class="font-semibold">Metro East Reporter</span> — St. Louis Public Radio, Belleville, IL</p>
-                            <p class="-mt-1 font-light"><em>June 2019 - June 2022</em></p>
-                            <p class="leading-none">Worked remotely producing articles about Illinois communities adjacent to St. Louis</p>
-                            <p class="mt-1 ml-5 leading-tight text-base">• Pioneered news coverage for 750,000 people who hadn’t been previously served</p>
-                            <p class="ml-5 leading-tight text-base">• Produced web content reaching more than 200,000 unique users annually</p>
+                            <p class="text-lg"><span class="font-semibold">{education.title}</span>{education.subhead}</p>
+                            <p class="leading-none">{education.dek}</p>
+                            {#if education.subdek}
+                            {#each education.subdek as subdek}
+                            <p class="mt-1 ml-5 leading-tight text-base">{subdek}</p>
+                            {/each}
+                            {/if}
                         </div>
-                        <div class="mb-2">
-                            <p class="text-lg"><span class="font-semibold">Freelance Reporter</span> — National Public Radio, Marketplace, Science Friday</p>
-                            <p class="-mt-1 font-light"><em>April 2018 - Present</em></p>
-                            <p class="leading-none">Pitches, reports, and produces original news content for national platforms</p>
-                        </div>
-                        <div class="mb-2">
-                            <p class="text-lg"><span class="font-semibold">Dow Jones News Fund Digital Media Intern</span> — AccuWeather, State College, PA</p>
-                            <p class="-mt-1 font-light"><em>June 2018 - August 2018</em></p>
-                            <p class="leading-none">Produced video content toping five million views on company website and socials</p>
-                        </div>
-                        <div class="mb-2">
-                            <p class="text-lg"><span class="font-semibold">College Associate</span> — Shepard Smith Reporting, Fox News Channel, New York, NY</p>
-                            <p class="-mt-1 font-light"><em>June 2017 - August 2017</em></p>
-                            <p class="leading-none">Sourced video content for a live national broadcast reaching millions of people each day</p>
-                        </div>
-                        <p class="text-2xl font-semibold mt-3 ">Education</p>
-                        <div class="mb-2">
-                            <p class="text-lg"><span class="font-semibold">LaunchCode</span> - St. Louis, MO — September 2022 - June 2023</p>
-                            <p class="leading-none">30-week full-stack development course in JavaScript, Angular, Java, and Spring Boot</p>
-                            <p class="mt-1 ml-5 leading-tight text-base">• Project experience reviewing and completing code bases to unit test specifications</p>
-                        </div>
-                        <div class="mb-2">
-                            <p class="text-lg"><span class="font-semibold">Stony Brook University</span> - Stony Brook, NY — Class of 2018</p>
-                            <p class="leading-none">Bachelor of Arts in Journalism, Business Management Minor</p>
-                        </div>
+                        {/each}
                     </div>
                     <div class="flex flex-row lg:flex-col lg:w-3/12">
                         <div class="w-2/5 lg:w-auto">

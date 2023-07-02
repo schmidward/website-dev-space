@@ -114,7 +114,8 @@
                     "• MySQL",
                     "• PostgreSQL"
                 ]
-            },{
+            },
+            {
                 "title": "Tools",
                 "dek": [
                     "• Grunt",
@@ -122,7 +123,17 @@
                     "• REST"
                 ]
             }
-
+        ],
+        "awardsHed": "Awards & Honors",
+        "awards": [
+            {
+                "title": "2022 IRE Award Finalist & 2023 Region 5 Murrow Award",
+                "dek": "For original and revelatory watchdog journalism exposing a 25-year coverup of toxic groundwater contamination in Springfield, Missouri."
+            },
+            {
+                "title": "Keynote Speaker",
+                "dek": "2022 Mississippi River Basin Ag & Water Desk Conference"
+            }
         ]
     }
 }

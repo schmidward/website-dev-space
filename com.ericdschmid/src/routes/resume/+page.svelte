@@ -78,15 +78,13 @@
                            {/each}
                         </div>
                         <div class="w-3/5 lg:w-auto">
-                            <p class="text-2xl font-semibold mt-3 ">Awards & Honors</p>
-                            <div class="mt-2 mb-3">
-                                <p class="text-lg font-semibold leading-none">2022 IRE Award Finalist & 2023 Region 5 Murrow Award</p>
-                                <p class="leading-none mt-1">For original and revelatory watchdog journalism exposing a 25-year coverup of toxic groundwater contamination in Springfield, Missouri.</p>
-                            </div>
-                            <div class="mt-2 mb-2">
-                                <p class="text-lg font-semibold leading-none">Keynote Speaker</p>
-                                <p class="leading-none mt-1">2022 Mississippi River Basin Ag & Water Desk Conference</p>
-                        </div>
+                            <p class="text-2xl font-semibold mt-3 ">{resume.awardsHed}</p>
+                            {#each resume.awards as award}
+                                <div class="mt-2 mb-3">
+                                    <p class="text-lg font-semibold leading-none">{award.title}</p>
+                                    <p class="leading-none mt-1">{award.dek}</p>
+                                </div>
+                            {/each}
                         </div>
                     </div>
                 </div>

@@ -88,6 +88,41 @@
                 "subhead": " - Stony Brook, NY — Class of 2018",
                 "dek": "Bachelor of Arts in Journalism, Business Management Minor"   
             }
+        ],
+        "skillsHed": "Skills",
+        "skills": [
+            {
+                "title": "Programming Languages",
+                "dek": [
+                    "• Java",
+                    "• JavaScript / TypeScript",
+                    "• HTML5 / CSS3"
+                ]
+            },
+            {
+                "title": "Frameworks",
+                "dek": [
+                    "• React",
+                    "• Svelte",
+                    "• Spring Boot",
+                    "• Spring Security"
+                ]
+            },
+            {
+                "title": "Databases",
+                "dek": [
+                    "• MySQL",
+                    "• PostgreSQL"
+                ]
+            },{
+                "title": "Tools",
+                "dek": [
+                    "• Grunt",
+                    "• Node",
+                    "• REST"
+                ]
+            }
+
         ]
     }
 }

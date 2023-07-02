@@ -67,31 +67,15 @@
                     </div>
                     <div class="flex flex-row lg:flex-col lg:w-3/12">
                         <div class="w-2/5 lg:w-auto">
-                            <p class="text-2xl font-semibold mt-3">Skills</p>
+                            <p class="text-2xl font-semibold mt-3">{resume.skillsHed}</p>
+                            {#each resume.skills as skill}
                             <div class="mb-2">
-                                <p class="text-lg font-semibold">Programming Languages</p>
-                                <p class="leading-tight text-lg">• Java</p>
-                                <p class="leading-tight text-lg">• JavaScript / TypeScript</p>
-                                <p class="leading-tight text-lg">• HTML5 / CSS3</p>
+                                <p class="text-lg font-semibold">{skill.title}</p>
+                                {#each skill.dek as dek}
+                                <p class="leading-tight text-lg">{dek}</p>
+                                {/each}
                             </div>
-                            <div class="mb-2">
-                                <p class="text-lg font-semibold">Frameworks</p>
-                                <p class="leading-tight text-lg">• React</p>
-                                <p class="leading-tight text-lg">• Svelte</p>
-                                <p class="leading-tight text-lg">• Spring Boot</p>
-                                <p class="leading-tight text-lg">• Spring Security</p>
-                            </div>
-                            <div class="mb-2">
-                                <p class="text-lg font-semibold">Databases</p>
-                                <p class="leading-tight text-lg">• MySQL</p>
-                                <p class="leading-tight text-lg">• PostgreSQL</p>
-                            </div>
-                            <div class="mb-2">
-                                <p class="text-lg font-semibold">Tools</p>
-                                <p class="leading-tight text-lg">• Grunt</p>
-                                <p class="leading-tight text-lg">• Node</p>
-                                <p class="leading-tight text-lg">• REST</p>
-                            </div>
+                           {/each}
                         </div>
                         <div class="w-3/5 lg:w-auto">
                             <p class="text-2xl font-semibold mt-3 ">Awards & Honors</p>

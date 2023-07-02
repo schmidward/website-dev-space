@@ -31,8 +31,29 @@
                     "• Implements JSON and OOP principles for lightweight, scaleable, and reusable code"
                 ]
             }
+        ],
+        "experienceHed": "Professional Experience",
+        "experience": [
+            {
+                "title": "Economic Development Reporter",
+                "subhead": "St. Louis Public Radio, St. Louis, MO",
+                "date": "June 2022 - Present",
+                "dek": "Researches and writes stories on efforts from businesses’, governments’, nonprofits’, and others to create economic opportunity and grow the population in Greater St. Louis",
+                "subdek": [
+                    "• Promoted after three years of outstanding performance in previous position",
+                    "• Facilitates and leads interviews with people from many backgrounds including elected officials, business executives and military leaders"
+                ]
+            },
+            {
+                "title": "",
+                "subhead": "",
+                "date": "",
+                "dek": "",
+                "subdek": [
+                    "",
+                    ""
+                ]
+            }
         ]
-        
-
     }
 }

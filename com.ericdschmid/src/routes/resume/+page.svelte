@@ -38,7 +38,7 @@
                 </div>
                 <div class="flex flex-col lg:flex-row">
                     <div class="lg:w-9/12">
-                        <p class="text-2xl font-semibold mt-3 ">Professional Experience</p>
+                        <p class="text-2xl font-semibold mt-3">Professional Experience</p>
                         <div class="mb-2">
                             <p class="text-lg"><span class="font-semibold">Economic Development Reporter</span> — St. Louis Public Radio, St. Louis, MO</p>
                             <p class="-mt-1 font-light"><em>June 2022 - Present</em></p>

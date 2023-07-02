@@ -33,7 +33,7 @@
             }
         ],
         "experienceHed": "Professional Experience",
-        "experience": [
+        "experiences": [
             {
                 "title": "Economic Development Reporter",
                 "subhead": "St. Louis Public Radio, St. Louis, MO",
@@ -45,14 +45,20 @@
                 ]
             },
             {
-                "title": "",
-                "subhead": "",
-                "date": "",
-                "dek": "",
+                "title": "Metro East Reporter",
+                "subhead": "St. Louis Public Radio, Belleville, IL",
+                "date": "June 2019 - June 2022",
+                "dek": "Worked remotely producing articles about Illinois communities adjacent to St. Louis",
                 "subdek": [
-                    "",
-                    ""
+                    "• Pioneered news coverage for 750,000 people who hadn’t been previously served",
+                    "• Produced web content reaching more than 200,000 unique users annually"
                 ]
+            },
+            {
+                "title": "Freelance Reporter",
+                "subhead": "National Public Radio, Marketplace, Science Friday",
+                "date": "April 2018 - Present",
+                "dek": "Pitches, reports, and produces original news content for national platforms"
             }
         ]
     }

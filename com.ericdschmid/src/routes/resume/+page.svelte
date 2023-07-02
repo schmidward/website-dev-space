@@ -38,14 +38,20 @@
                 </div>
                 <div class="flex flex-col lg:flex-row">
                     <div class="lg:w-9/12">
-                        <p class="text-2xl font-semibold mt-3">Professional Experience</p>
+                        <p class="text-2xl font-semibold mt-3">{resume.experienceHed}</p>
+                        {#each resume.experiences as experience}
                         <div class="mb-2">
-                            <p class="text-lg"><span class="font-semibold">Economic Development Reporter</span> — St. Louis Public Radio, St. Louis, MO</p>
-                            <p class="-mt-1 font-light"><em>June 2022 - Present</em></p>
-                            <p class="leading-none">Researches and writes stories on efforts from businesses’, governments’, nonprofits’, and others to create economic opportunity and grow the population in Greater St. Louis</p>
-                            <p class="mt-1 ml-5 leading-tight text-base">• Promoted after three years of outstanding performance in previous position</p>
-                            <p class="ml-5 leading-tight text-base">• Facilitates and leads interviews with people from many backgrounds including elected officials, business executives and military leaders</p>
+                            <p class="text-lg"><span class="font-semibold">{experience.title}</span> — {experience.subhead}</p>
+                            <p class="-mt-1 font-light"><em>{experience.date}</em></p>
+                            <p class="leading-none">{experience.dek}</p>
+                            {#if experience.subdek}
+                            {#each experience.subdek as subdek}
+                            <p class="mt-1 ml-5 leading-tight text-base">{subdek}</p>
+                            <p class="ml-5 leading-tight text-base"></p>
+                            {/each}
+                            {/if}
                         </div>
+                        {/each}
                         <div class="mb-2">
                             <p class="text-lg"><span class="font-semibold">Metro East Reporter</span> — St. Louis Public Radio, Belleville, IL</p>
                             <p class="-mt-1 font-light"><em>June 2019 - June 2022</em></p>

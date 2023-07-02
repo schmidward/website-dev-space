@@ -1,6 +1,14 @@
 <script>
     import resumes from "../../lib/content/resume.json"
     let resume = resumes.software;
+    function setToJournalism() {
+        return resume = resumes.journalism;
+    } 
+    function setToSoftware() {
+        return resume = resumes.software;
+    }
+    
+    
     console.log(resume);
 </script>
 
@@ -9,12 +17,17 @@
         <div class="m-10 text-7xl font-semibold text-center">
             Resume
             <div class="flex flex-col ml-44 mr-44 mt-6 mb-4 text-xl md:ml-0 md:mr-0 md:flex-row md:justify-around">
-                <div class="bg-red text-white mt-3 mb-3 p-5 text-center hover:bg-hover-red" >
-                    Journalism
-                </div>
-                <div class="bg-red text-white mt-3 mb-3 p-5 text-center hover:bg-hover-red" >
+                <button 
+                    class="bg-red text-white mt-3 mb-3 p-5 text-center hover:bg-hover-red" 
+                    on:click={setToJournalism}
+                    >
+                    Journalism</button>
+                <button 
+                    class="bg-red text-white mt-3 mb-3 p-5 text-center hover:bg-hover-red" 
+                    on:click={setToSoftware}
+                    >                   
                     Software Development
-                </div>
+                </button>
             </div>
         </div>
         <div class="ml-8 mr-8 mb-10 flex flex-col">
@@ -28,6 +41,7 @@
                         {link.text}<span class="text-dark-red hover:text-hover-red"><a href="{link.href}" target="_blank">{link.href}</a></span>
                         {/each}
                     </p>
+                    {#if resume.projects}
                     <p class="text-2xl font-semibold mt-3 ">{resume.projectHed}</p>
                     {#each resume.projects as project}
                     <p class="text-lg mt-2"><span class="font-semibold">{project.title}</span> — {project.subhead}</p>
@@ -35,9 +49,10 @@
                     <p class="leading-tight text-base">{dek}</p>
                         {/each}
                     {/each}
+                    {/if}
                 </div>
                 <div class="flex flex-col lg:flex-row">
-                    <div class="lg:w-9/12">
+                    <div class="mr-5 lg:w-9/12">
                         <p class="text-2xl font-semibold mt-3">{resume.experienceHed}</p>
                         {#each resume.experiences as experience}
                         <div class="mb-2">
@@ -46,8 +61,7 @@
                             <p class="leading-none">{experience.dek}</p>
                             {#if experience.subdek}
                             {#each experience.subdek as subdek}
-                            <p class="mt-1 ml-5 leading-tight text-base">{subdek}</p>
-                            <p class="ml-5 leading-tight text-base"></p>
+                            <p class="mt-1 ml-5 leading-none text-base">{subdek}</p>
                             {/each}
                             {/if}
                         </div>
@@ -70,7 +84,7 @@
                             <p class="text-2xl font-semibold mt-3">{resume.skillsHed}</p>
                             {#each resume.skills as skill}
                             <div class="mb-2">
-                                <p class="text-lg font-semibold">{skill.title}</p>
+                                <p class="text-lg leading-none font-semibold mb-2 mt-2">{skill.title}</p>
                                 {#each skill.dek as dek}
                                 <p class="leading-tight text-lg">{dek}</p>
                                 {/each}
@@ -82,7 +96,9 @@
                             {#each resume.awards as award}
                                 <div class="mt-2 mb-3">
                                     <p class="text-lg font-semibold leading-none">{award.title}</p>
-                                    <p class="leading-none mt-1">{award.dek}</p>
+                                    {#each award.dek as dek}
+                                    <p class="leading-none mt-1">{dek}</p>
+                                    {/each}
                                 </div>
                             {/each}
                         </div>

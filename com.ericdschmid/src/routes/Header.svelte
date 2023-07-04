@@ -6,6 +6,9 @@
     function menuToggle() {
         menu.classList.toggle('hidden');
     }
+    function menuReset() {
+        menu.classList.toggle('hidden');
+    }
 
 </script>
 
@@ -46,16 +49,16 @@
             <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
                 <ul class='pt-4 md:flex md:justify-between md:pt-0 text-lg'>
                     <li>
-                        <a class="md:p-4 block px-2 hover:text-grey" href="/">Home</a>
+                        <a on:click={menuReset} on:keypress={menuReset} class="md:p-4 block px-2 hover:text-grey" href="/">Home</a>
                     </li>
                     <li>
-                        <a class="md:p-4 block px-2 hover:text-grey" href="/mywork">My Work</a>
+                        <a on:click={menuReset} on:keypress={menuReset} class="md:p-4 block px-2 hover:text-grey" href="/mywork">My Work</a>
                     </li>
                     <li>
-                        <a class="md:p-4 block px-2 hover:text-grey" href="/about">About Me</a>
+                        <a on:click={menuReset} on:keypress={menuReset} class="md:p-4 block px-2 hover:text-grey" href="/about">About Me</a>
                     </li>
                     <li>
-                        <a class="md:p-4 block px-2 hover:text-grey" href="/resume">Resume</a>    
+                        <a on:click={menuReset} on:keypress={menuReset} class="md:p-4 block px-2 hover:text-grey" href="/resume">Resume</a>    
                     </li>
                 </ul>
             </div>

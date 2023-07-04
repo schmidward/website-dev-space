@@ -26,43 +26,45 @@
     </div>
 
 <div class="max-w-screen-lg block mr-auto ml-auto text-lg md:text-xl">
-    <p class="mt-7 mr-20 ml-20">
-            <span class="font-bold text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/people/eric-schmid" target="_blank">
-                Eric Schmid
-            </a></span> 
-        is a multimedia journalist based in St. Louis with over five years of experience in print-, digital-, and audio-focused newsrooms. He has demonstrated 
-        success developing 
-            <span class="text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/people/eric-schmid" target="_blank">
-                strong continuing news coverage
-            </a></span> 
-        and producing large scale reporting projects both 
-            <span class="text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/economy-business/2022-02-16/workers-at-dozens-of-metro-east-warehouses-have-no-safe-rooms-to-shelter-from-tornadoes" target="_blank">
-                independently
-            </a></span> 
-        and as 
-            <span class="text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/health-science-environment/2022-10-19/missouri-knew-of-contamination-in-springfields-groundwater-decades-before-anyone-told-residents" target="_blank">
-                part of a team</a></span>. 
-        This includes advanced skill with source building, story pitching, public records, long-term coverage planning, interviewing, and audio editing/mixing.</p>
-    <p class="mt-7 mr-20 ml-20">
-        His reporting experience spans breaking hard news to enterprise and investigative features and he excels at producing content native to 
-        digital/print and audio/radio platforms. Eric gravitates toward complicated and nuanced stories and he enjoys the challenge of ingesting 
-        and distilling large swaths of information into cohesive, intriguing, and conscice stories. He is adept at covering many topics, though his 
-        enterprise work regularly returns to stories about the 
-            <span class="text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/health-science-environment/2023-06-29/wetlands-restoration-is-key-to-avoiding-the-worst-of-future-floods-along-the-mississippi" target="_blank">
-                environment</a></span>, and
-            <span class="text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/economy-business/2023-05-03/st-louis-economic-future-requires-a-lot-more-trained-workers-and-fast" target="_blank">
-                economics</a></span>.
-    </p>
-    <p class="mt-7 mr-20 ml-20">Eric joined St. Louis Public Radio in June 2019 as their first ever Metro East Reporter, tasked with expanding and developing the station’s 
-        coverage of suburban St. Louis communities east of the Mississippi River. In June 2022, he was promoted to cover economic development across St. 
-        Louis, a region of 2.8 million people.</p>
-    <p class="mt-7 mr-20 ml-20">Before joining St. Louis Public Radio, Eric held internships at Fox News Channel, NPR member station WSHU Public Radio, and AccuWeather. He graduated from 
-        <span class="text-dark-red hover:text-hover-red"><a href="https://www.stonybrook.edu/" target="_blank">
-            Stony Brook University
-        </a></span>in 2018 as the valedictorian of the <span class="text-dark-red hover:text-hover-red"><a href="https://www.stonybrook.edu/journalism/" target="_blank">School of Journalism</a></span>.
-    </p>
-    <p class="mt-7 mr-20 ml-20">Lead image by Brian Muñoz. All other photography by Eric Schmid.</p>
-    <div class="flex flex-col ml-44 mr-44 mt-3 mb-4 md:ml-0 md:mr-0 md:flex-row md:justify-around">
+    <div class="mt-7 mr-1/5 ml-1/5">
+        <p class="py-3">
+                <span class="font-bold text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/people/eric-schmid" target="_blank">
+                    Eric Schmid
+                </a></span> 
+            is a multimedia journalist based in St. Louis with over five years of experience in print-, digital-, and audio-focused newsrooms. He has demonstrated 
+            success developing 
+                <span class="text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/people/eric-schmid" target="_blank">
+                    strong continuing news coverage
+                </a></span> 
+            and producing large scale reporting projects both 
+                <span class="text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/economy-business/2022-02-16/workers-at-dozens-of-metro-east-warehouses-have-no-safe-rooms-to-shelter-from-tornadoes" target="_blank">
+                    independently
+                </a></span> 
+            and as 
+                <span class="text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/health-science-environment/2022-10-19/missouri-knew-of-contamination-in-springfields-groundwater-decades-before-anyone-told-residents" target="_blank">
+                    part of a team</a></span>. 
+            This includes advanced skill with source building, story pitching, public records, long-term coverage planning, interviewing, and audio editing/mixing.</p>
+        <p class="py-3">
+            His reporting experience spans breaking hard news to enterprise and investigative features and he excels at producing content native to 
+            digital/print and audio/radio platforms. Eric gravitates toward complicated and nuanced stories and he enjoys the challenge of ingesting 
+            and distilling large swaths of information into cohesive, intriguing, and conscice stories. He is adept at covering many topics, though his 
+            enterprise work regularly returns to stories about the 
+                <span class="text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/health-science-environment/2023-06-29/wetlands-restoration-is-key-to-avoiding-the-worst-of-future-floods-along-the-mississippi" target="_blank">
+                    environment</a></span>, and
+                <span class="text-dark-red hover:text-hover-red"><a href="https://news.stlpublicradio.org/economy-business/2023-05-03/st-louis-economic-future-requires-a-lot-more-trained-workers-and-fast" target="_blank">
+                    economics</a></span>.
+        </p>
+        <p class="py-3">Eric joined St. Louis Public Radio in June 2019 as their first ever Metro East Reporter, tasked with expanding and developing the station’s 
+            coverage of suburban St. Louis communities east of the Mississippi River. In June 2022, he was promoted to cover economic development across St. 
+            Louis, a region of 2.8 million people.</p>
+        <p class="py-3">Before joining St. Louis Public Radio, Eric held internships at Fox News Channel, NPR member station WSHU Public Radio, and AccuWeather. He graduated from 
+            <span class="text-dark-red hover:text-hover-red"><a href="https://www.stonybrook.edu/" target="_blank">
+                Stony Brook University
+            </a></span>in 2018 as the valedictorian of the <span class="text-dark-red hover:text-hover-red"><a href="https://www.stonybrook.edu/journalism/" target="_blank">School of Journalism</a></span>.
+        </p>
+        <p class="py-3">Lead image by Brian Muñoz. All other photography by Eric Schmid.</p>
+    </div>
+    <div class="flex flex-col mr-1/4 ml-1/4 mt-3 mb-4 md:ml-0 md:mr-0 md:flex-row md:justify-around">
         <a  class="bg-red text-white mt-3 mb-3 p-5 text-center hover:bg-hover-red" 
             href="/about">
             About Me

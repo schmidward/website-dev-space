@@ -16,6 +16,11 @@ export default {
     extend: {
       height: {
         'screen-half': '50vh'
+      },
+      margin: {
+        '1/5': '20%',
+        '2/5': '40%',
+        '1/4': '25%'
       }
     },
   },

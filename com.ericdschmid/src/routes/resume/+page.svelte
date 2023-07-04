@@ -1,11 +1,17 @@
 <script>
     import resumes from "../../lib/content/resume.json"
-    let resume = resumes.software;
+    let resume = resumes.journalism;
+    let jrnStyle = 'bg-hover-red border-solid border-4 border-black text-white mt-3 mb-3 p-5 text-center';
+    let softwareStyle = 'bg-red text-white mt-3 mb-3 p-5 text-center hover:bg-hover-red';
     function setToJournalism() {
-        return resume = resumes.journalism;
+        resume = resumes.journalism;
+        jrnStyle = 'bg-hover-red text-white mt-3 mb-3 p-5 text-center';
+        softwareStyle = 'bg-red text-white mt-3 mb-3 p-5 text-center hover:bg-hover-red';
     } 
     function setToSoftware() {
-        return resume = resumes.software;
+        resume = resumes.software;
+        softwareStyle = 'bg-hover-red border-solid border-4 border-black text-white mt-3 mb-3 p-5 text-center';
+        jrnStyle = 'bg-red text-white mt-3 mb-3 p-5 text-center hover:bg-hover-red';
     }
     
     
@@ -18,12 +24,12 @@
             Resume
             <div class="flex flex-col ml-44 mr-44 mt-6 mb-4 text-xl md:ml-0 md:mr-0 md:flex-row md:justify-around">
                 <button 
-                    class="bg-red text-white mt-3 mb-3 p-5 text-center hover:bg-hover-red" 
+                    class={jrnStyle} 
                     on:click={setToJournalism}
                     >
                     Journalism</button>
                 <button 
-                    class="bg-red text-white mt-3 mb-3 p-5 text-center hover:bg-hover-red" 
+                    class={softwareStyle} 
                     on:click={setToSoftware}
                     >                   
                     Software Development

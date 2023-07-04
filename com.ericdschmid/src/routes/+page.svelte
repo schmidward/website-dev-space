@@ -82,10 +82,3 @@
 
 </section> 
 </body>
-
-
-<style>
-
-
-
-</style>

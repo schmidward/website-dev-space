@@ -60,6 +60,9 @@
                     <li>
                         <a on:click={menuReset} on:keypress={menuReset} class="md:p-4 block px-2 hover:text-grey" href="/resume">Resume</a>    
                     </li>
+                    <li>
+                        <a on:click={menuReset} on:keypress={menuReset} class="md:p-4 block px-2 hover:text-grey" href="/visuals">Visuals</a>
+                    </li>
                 </ul>
             </div>
             

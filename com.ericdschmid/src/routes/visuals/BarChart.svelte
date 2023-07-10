@@ -10,6 +10,7 @@
     const innerHeight = height - margin.top - margin.bottom;
     const innerWidth = width - margin.left - margin.right;
   
+    //It looks like this defines out the domains 
     $: xDomain = data.map((d) => d.country);
     $: yDomain = data.map((d) => +d.population);
   
